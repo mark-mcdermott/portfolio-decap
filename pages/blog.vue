@@ -1,3 +1,7 @@
+<script setup>
+const { data } = await useAsyncData('home', () => queryContent('blog/').find())
+</script>
+
 <template>
   <article lang="en">
     <header>
@@ -11,7 +15,3 @@
     </div>
   </article>
 </template>
-
-<script setup>
-const { data } = await useAsyncData('home', () => queryContent('blog/').find())
-</script>
