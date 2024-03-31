@@ -1,5 +1,5 @@
 ---
-title: 'Quick Notes On Git Amending, Squashing & Diffing'
+title: 'Javascript Check If All/Some Elements Are True'
 date: '3/25/24'
 ---
 
