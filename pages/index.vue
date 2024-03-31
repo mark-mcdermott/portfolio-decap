@@ -1,5 +1,5 @@
 <script setup>
-const { data } = await useAsyncData('home', () => queryContent('/blog').find())
+const { data } = await useAsyncData('page-data', () => queryContent(`/blog`).find())
 </script>
 
 <template>
@@ -11,10 +11,10 @@ const { data } = await useAsyncData('home', () => queryContent('/blog').find())
     </header>
     <div class="page-content">
       <h2>Latest Post</h2>
-      <pre>{{ data }}</pre>
-      <p v-for="post in data" :key="post.id">
-        <NuxtLink :to="post._path">{{ post.title }}</NuxtLink>
-      </p>
+      <ContentRenderer v-if="data !== null" :value="data">
+        <h1>{{ data[data.length - 1].title }}</h1>
+        <ContentRendererMarkdown :value="data[data.length - 1]" />
+    </ContentRenderer>
     </div>
   </article>
 </template>
