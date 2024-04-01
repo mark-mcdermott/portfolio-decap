@@ -1,6 +1,7 @@
 ---
-title: 'Quick Notes On Git Amending, Squashing & Diffing'
-date: '3/25/24'
+title: Quick Notes On Git Amending, Squashing & Diffing!
+date: 3/25/24
+description: adding !
 ---
 
 I learned today a quick way to test a bunch of boolean expressions in Javascript is to put them in an array and use Javascript's `some` or `every` method:
