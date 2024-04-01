@@ -1,5 +1,5 @@
 ---
-title: Quick Notes On Git Amending, Squashing & Diffing!
+title: Quick Notes On Git Amending, Squashing & Diffing
 date: 3/25/24
 description: adding !
 ---

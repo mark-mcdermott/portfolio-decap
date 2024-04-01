@@ -7,7 +7,10 @@ const { data } = await useAsyncData('page-data', () => queryContent(route.path).
   <article>
     <ContentRenderer :value="data">
       <header>
-        <h1>{{ data?.title }}</h1>
+        <h1 v-if="data?.showHomePageImage" class="homepage-image"> 
+          <img src="~/assets/img/logo-and-name-clean.svg"> 
+        </h1>
+        <h1 v-else>{{ data?.title }}</h1>
         <h2 v-if="data?.subtitleH2">{{ data?.subtitleH2 }}</h2>
         <small v-if="data?.subtitle">{{ data?.subtitle }}</small>
         <small v-if="data?.date">{{ data?.date }}</small>
