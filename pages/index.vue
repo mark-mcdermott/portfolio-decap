@@ -1,4 +1,9 @@
 <script setup>
+useHead({
+  script: [
+    { src: "https://identity.netlify.com/v1/netlify-identity-widget.js" },
+  ],
+})
 const { data } = await useAsyncData('page-data', () => queryContent(`/blog`).find())
 </script>
 
