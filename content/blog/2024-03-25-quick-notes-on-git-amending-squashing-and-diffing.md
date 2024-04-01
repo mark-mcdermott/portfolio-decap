@@ -1,11 +1,8 @@
 ---
 title: Quick Notes On Git Amending, Squashing & Diffing
 date: 3/25/24
-image: true
 ---
-![](/img/2024-03-25-quick-notes-on-git-amending-squashing-and-diffing.png)
-
-I've been working collaboratively on Drivetracks with a couple people and have forced to improve my git-fu a bit and want to jot down real quick what I've learned.
+ I've been working collaboratively on Drivetracks with a couple people and have forced to improve my git-fu a bit and want to jot down real quick what I've learned.
 
 | description                        | git command                                            |
 | ---------------------------------- | ------------------------------------------------------ |

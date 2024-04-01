@@ -1,7 +1,6 @@
 ---
 title: 'Javascript Check If All/Some Elements Are True'
 date: '3/25/24'
-image: true
 ---
 
 I learned today a quick way to test a bunch of boolean expressions in Javascript is to put them in an array and use Javascript's `some` or `every` method:
