@@ -1,1 +1,7 @@
-<h1>Homepage</h1>
+---
+title: 'Mark McDermott'
+subtitleH2: 'Software Developer in Austin, Texas'
+showSocials: true
+---
+## Latest Post
+::LatestPost

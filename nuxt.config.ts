@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   modules: ["@nuxt/content"],
   vue: {  
     compilerOptions: {
-      isCustomElement: (tag) => ['PostsList'].includes(tag),
+      isCustomElement: (tag) => ['PostsList', 'LatestPost'].includes(tag),
     },
   }
 })
