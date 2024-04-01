@@ -19,7 +19,6 @@ const { data } = await useAsyncData('page-data', () => queryContent(route.path).
         <small v-if="data?.showSocials"><b><a href="https://github.com/mark-mcdermott">GitHub</a></b>・<a href="https://www.linkedin.com/pub/mark-mcdermott/16/749/6a1/">Linkedin</a></small>
       </header>
       <div class="page-content">
-        <img v-if="data?.image" :src="postImage" />
         <ContentRendererMarkdown v-if="data" :value="data" />
       </div>
     </ContentRenderer>
