@@ -1,6 +1,7 @@
 ---
 title: 'Vue 2 Currency Input Component'
 date: '3/29/24'
+image: true
 ---
 
 Here is a Vue 2 component for entering dollar and cents values that I wrote a couple days ago that I'm pretty proud of. When you click in the input and type a number it shows "$0.0x" where x is the number you inputted. Then you when type y number, it shows "$0.xy". And so on, so if you type "123456789", it displays "$1,234,567.89". When anything but a number is typed, it is ignored. But it correctly handles inputs like arrow keys, delete/backspace, command/control + a, etc.array and use Javascript's `some` or `every` method:

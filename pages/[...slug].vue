@@ -1,5 +1,7 @@
 <script setup lang="ts">
 const route = useRoute()
+const slugName = route.path.split('/').pop()
+const postImage = `static/img/${slugName}.png`
 const { data } = await useAsyncData('page-data', () => queryContent(route.path).findOne())
 </script>
 
@@ -8,7 +10,7 @@ const { data } = await useAsyncData('page-data', () => queryContent(route.path).
     <ContentRenderer :value="data">
       <header>
         <h1 v-if="data?.showHomePageImage" class="homepage-image"> 
-          <img src="~/assets/img/logo-and-name-clean.svg"> 
+          <img src="~/assets/img/logo/logo-and-name-clean.svg"> 
         </h1>
         <h1 v-else>{{ data?.title }}</h1>
         <h2 v-if="data?.subtitleH2">{{ data?.subtitleH2 }}</h2>
@@ -17,6 +19,7 @@ const { data } = await useAsyncData('page-data', () => queryContent(route.path).
         <small v-if="data?.showSocials"><b><a href="https://github.com/mark-mcdermott">GitHub</a></b>・<a href="https://www.linkedin.com/pub/mark-mcdermott/16/749/6a1/">Linkedin</a></small>
       </header>
       <div class="page-content">
+        <img v-if="data?.image" :src="postImage" />
         <ContentRendererMarkdown v-if="data" :value="data" />
       </div>
     </ContentRenderer>

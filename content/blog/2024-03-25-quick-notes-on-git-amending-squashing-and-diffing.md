@@ -1,14 +1,19 @@
 ---
 title: Quick Notes On Git Amending, Squashing & Diffing
 date: 3/25/24
-description: adding !
+image: true
 ---
 
-I learned today a quick way to test a bunch of boolean expressions in Javascript is to put them in an array and use Javascript's `some` or `every` method:
+I've been working collaboratively on Drivetracks with a couple people and have forced to improve my git-fu a bit and want to jot down real quick what I've learned.
 
-`arr.some(Boolean)`
-`arr.every(Boolean)`
-
-`.some(Boolean)` will return true if any element of the array is truthy. `.every(Boolean)` will return true if all elements in the array are truthy.
-
-<sub>Source: https://www.30secondsofcode.org/js/s/check-array-values-are-truthy/#check-if-all-values-in-an-array-are-truthy</sub>
+| description | git command |
+| -------- | ------- |
+| change last commit message  | `git commit --amend` |
+| change specific commit message | `git rebase -i HEAD~3`  |
+| add stuff to the last commit | `git commit --amend --no-edit` |
+| sqash last n commits | `git reset --soft HEAD~n` |
+| interactive squash | `git rebase -i HEAD~n` |
+| (...but keep original commit date) | `git rebase -i --committer-date-is-author-date HEAD~n` |
+| see a branch's changes | `git diff main` |
+| see a branch's divergent changes | `git diff main...branch` |
+| see diff between two commits | `git diff hash1...hash2` |
