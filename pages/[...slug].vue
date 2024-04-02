@@ -1,15 +1,16 @@
 <script setup lang="ts">
 const route = useRoute()
 const slugName = route.path.split('/').pop()
-const postImage = "/_nuxt/static/img/" + slugName + ".png"
-console.log(postImage)
+let postImage = "/img/post-images/" + slugName + ".png"
+// postImage = require("~/assets/img/post-images/2024-03-25-quick-notes-on-git-amending-squashing-and-diffing.png")
+// console.log(postImage)
 const { data } = await useAsyncData('page-data', () => queryContent(route.path).findOne())
 </script>
 
 <template>
   <article>
     <ContentRenderer :value="data">
-      <header :style="`background-image: url(${postImage})`">
+      <header :style="`background-image:url(${postImage})`">
         <h1 v-if="data?.showHomePageImage" class="homepage-image"> 
           <img src="~/assets/img/logo/logo-and-name-clean.svg"> 
         </h1>
