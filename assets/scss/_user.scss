@@ -42,6 +42,36 @@
 }
 
 .content header {
-  background-position: center;
   box-shadow: inset 0 0 0 1000px rgba(255,255,255,.85);
+  background-position: 0 50%;
+  @media (max-width: 1950px) {
+    background-position: 15% 50%;
+  }
+  @media (max-width: 1700px) {
+    background-position: 20% 50%;
+  }
+  @media (max-width: 1550px) {
+    background-position: 25% 50%;
+  }
+  @media (max-width: 1375px) {
+    background-position: 30% 50%;
+  }
+  @media (max-width: 1200px) {
+    background-position: 35% 50%;
+  }
+  @media (max-width: 1000px) {
+    background-position: 40% 50%;
+  }
+  @media (max-width: 760px) {
+    background-position: 45% 50%;
+  }
+  @media (max-width: 500px) {
+    background-position: 50% 50%;
+  }
+}
+
+@media (max-width: 640px) {
+  .footer {
+    padding: 1em 1em 3em;
+  }
 }
