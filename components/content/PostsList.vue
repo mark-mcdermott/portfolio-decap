@@ -4,9 +4,12 @@ const { data } = await useAsyncData('home', () => queryContent('blog/').find())
 
 <template>
   <article lang="en">
-    <div class="page-content">
-      <p v-for="post in data" :key="post.id">
-        <NuxtLink :to="post._path">{{ post.title }}</NuxtLink>
+    <div class="post-list">
+      <p v-for="post in data.sort((a, b) => new Date(b.date) - new Date(a.date))" :key="post._id">
+        <NuxtLink :to="post._path">
+          <small>{{ post.date }}</small> 
+          {{ post.title }}
+        </NuxtLink>
       </p>
     </div>
   </article>
