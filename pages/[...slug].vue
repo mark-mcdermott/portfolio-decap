@@ -1,6 +1,6 @@
 <script setup lang="ts">
 const route = useRoute()
-const slugName = route.path.split('/').pop()
+const slugName = route.path.split('/').pop().replace(/:/g, '')
 let postImage = "/img/post-images/" + slugName + ".jpg"
 const { data } = await useAsyncData('page-data', () => queryContent(route.path).findOne())
 </script>
