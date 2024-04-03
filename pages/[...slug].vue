@@ -15,7 +15,7 @@ const { data } = await useAsyncData('page-data', () => queryContent(route.path).
         <h1 v-else>{{ data?.title }}</h1>
         <h2 v-if="data?.subtitleH2">{{ data?.subtitleH2 }}</h2>
         <small v-if="data?.subtitle">{{ data?.subtitle }}</small>
-        <small v-if="data?.date">{{ data?.date }}</small>
+        <small v-if="data?.date">{{ new Date(data?.date).toLocaleDateString() }}</small>
         <small v-if="data?.showSocials"><b><a href="https://github.com/mark-mcdermott">GitHub</a></b>・<a href="https://www.linkedin.com/pub/mark-mcdermott/16/749/6a1/">Linkedin</a></small>
       </header>
       <div class="page-content">
