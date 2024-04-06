@@ -11,3 +11,5 @@ How I like to setup a new Mac:
 - install homebrew: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 - install dockutil: `brew install dockutil`
 - remove default dock icons: `dockutil --remove all`
+- allow downloads from anywhere: `sudo spctl --master-disable`
+- download vscode
