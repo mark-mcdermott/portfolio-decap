@@ -8,7 +8,14 @@ Some notes on how I like to setup a new Mac:
 * set trackpad speed to 8/10
 * `touch ~/.zshrc`
 * `mkdir ~/Applications && mkdir ~/Desktop/misc`
-* add home folder and root folder to Finder sidebar
+* Finder sidebar:
+
+  * Favorites
+
+    * remove everything but Desktop
+    * add home folder
+  * Locations: add root folder
+* Install Arc (to ~/Applications) and log in
 * install homebrew: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 * install dockutil: `brew install dockutil`
 * remove default dock icons: `dockutil --remove all`
