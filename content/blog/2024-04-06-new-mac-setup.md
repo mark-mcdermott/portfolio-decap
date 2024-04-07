@@ -10,6 +10,10 @@ Some notes on how I like to setup a new Mac:
   * set trackpad speed to 8/10
 * in terminal
 
+  * install homebrew (locally for current Mac user only)
+
+    * `git clone https://github.com/Homebrew/brew.git ~/brew`
+    * `echo 'export PATH=$HOME/brew/bin:$PATH' >> ~/.zshrc`
   * `touch ~/.zshrc`
   * `mkdir ~/Applications && mkdir ~/Desktop/misc`
   * allow downloads from anywhere: `sudo spctl --master-disable`
