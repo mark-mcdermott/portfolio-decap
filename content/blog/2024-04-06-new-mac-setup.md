@@ -19,3 +19,4 @@ Some notes on how I like to setup a new Mac:
 - `echo "source $(brew --prefix nvm)/nvm.sh" >> ~/.zshrc`
 - install Oh My Zsh: `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 - clone Powerlevel10k theme: `cd ~/.oh-my-zsh/themes && git clone https://github.com/romkatv/powerlevel10k.git`
+- https://www.youtube.com/watch?v=0FZSshb1qTQ
