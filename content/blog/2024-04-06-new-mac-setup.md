@@ -15,7 +15,11 @@ Some notes on how I like to setup a new Mac:
     * remove everything but Desktop
     * add home folder
   * Locations: add root folder
-* Install Arc (to ~/Applications) and log in
+* Arc browser:
+
+  * install (to ~/Applications) 
+  * log in (as mcdermottsolutions@gmail.com)
+  * set download folder to Desktop
 * install homebrew: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 * install dockutil: `brew install dockutil`
 * remove default dock icons: `dockutil --remove all`
