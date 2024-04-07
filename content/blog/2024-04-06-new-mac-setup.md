@@ -4,11 +4,16 @@ date: 2024-04-06T06:49:00.000Z
 ---
 Some notes on how I like to setup a new Mac:
 
-* change wallpaper to solid cyan
-* set trackpad speed to 8/10
-* `touch ~/.zshrc`
-* `mkdir ~/Applications && mkdir ~/Desktop/misc`
-* Finder sidebar:
+* in mac settings:
+
+  * change wallpaper to solid cyan
+  * set trackpad speed to 8/10
+* in terminal
+
+  * `touch ~/.zshrc`
+  * `mkdir ~/Applications && mkdir ~/Desktop/misc`
+  * allow downloads from anywhere: `sudo spctl --master-disable`
+* In Finder > settings > sidebar:
 
   * Favorites
 
@@ -21,9 +26,10 @@ Some notes on how I like to setup a new Mac:
   * log in (as mcdermottsolutions@gmail.com)
   * set download folder to Desktop
 * install homebrew: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
-* install dockutil: `brew install dockutil`
-* remove default dock icons: `dockutil --remove all`
-* allow downloads from anywhere: `sudo spctl --master-disable`
+* install dockutil (remove default dock icons)
+
+  * `brew install dockutil`
+  * `dockutil --remove all`
 * download VScode, iTerm & Spotify desktop
 * install nvm: `brew update && brew install nvm && nvm install node`
 * `echo "source $(brew --prefix nvm)/nvm.sh" >> ~/.zshrc`
