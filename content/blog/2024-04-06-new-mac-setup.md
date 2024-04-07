@@ -14,9 +14,11 @@ Some notes on how I like to setup a new Mac:
 
     * `git clone https://github.com/Homebrew/brew.git ~/brew`
     * `echo 'export PATH=$HOME/brew/bin:$PATH' >> ~/.zshrc`
-  * `touch ~/.zshrc`
-  * `mkdir ~/Applications && mkdir ~/Desktop/misc`
-  * allow downloads from anywhere: `sudo spctl --master-disable`
+* in terminal
+
+  * `mkdir ~/Applications` (install non-brew apps here to keep them sandboxed to current Mac user)
+  * `mkdir ~/Desktop/misc` (a folder I use for stashing junk in)
+  * `sudo spctl --master-disable` (allow downloads from anywhere)
 * In Finder > settings > sidebar:
 
   * Favorites
