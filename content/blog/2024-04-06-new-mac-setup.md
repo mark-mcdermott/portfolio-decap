@@ -4,6 +4,7 @@ date: 2024-04-06T06:49:00.000Z
 ---
 Some notes on how I like to setup a new Mac:
 - change wallpaper to solid cyan
+- set trackpad speed to 8/10
 - change Safari download folder to desktop
 - add home folder and root folder to Finder sidebar
 - add an Applications folder in my home folder
