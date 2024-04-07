@@ -12,4 +12,5 @@ Some notes on how I like to setup a new Mac:
 - install dockutil: `brew install dockutil`
 - remove default dock icons: `dockutil --remove all`
 - allow downloads from anywhere: `sudo spctl --master-disable`
-- download VScode, iTerm & Spotify desktop 
+- download VScode, iTerm & Spotify desktop
+- install nvm: `brew update && brew install nvm`
