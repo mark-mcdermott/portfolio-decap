@@ -2,7 +2,7 @@
 title: New Mac Setup
 date: 2024-04-06T06:49:00.000Z
 ---
-How I like to setup a new Mac:
+Some notes on how I like to setup a new Mac:
 - change wallpaper to solid cyan
 - change Safari download folder to desktop
 - add home folder and root folder to Finder sidebar
@@ -12,4 +12,4 @@ How I like to setup a new Mac:
 - install dockutil: `brew install dockutil`
 - remove default dock icons: `dockutil --remove all`
 - allow downloads from anywhere: `sudo spctl --master-disable`
-- download vscode
+- download VScode, iTerm & Spotify desktop 
