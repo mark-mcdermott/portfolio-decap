@@ -14,6 +14,9 @@ Some notes on how I like to setup a new Mac:
 
     * `git clone https://github.com/Homebrew/brew.git ~/brew`
     * `echo 'export PATH=$HOME/brew/bin:$PATH' >> ~/.zshrc`
+  * install stuff with brew
+
+    * `brew install arc iterm2 dockutil node visual-studio-code`
 * in terminal
 
   * `mkdir ~/Applications` (install non-brew apps here to keep them sandboxed to current Mac user)
@@ -31,7 +34,6 @@ Some notes on how I like to setup a new Mac:
   * install (to ~/Applications) 
   * log in (as mcdermottsolutions@gmail.com)
   * set download folder to Desktop
-* install homebrew: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 * install dockutil (remove default dock icons)
 
   * `brew install dockutil`
