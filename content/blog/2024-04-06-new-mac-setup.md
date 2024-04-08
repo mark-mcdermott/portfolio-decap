@@ -31,7 +31,7 @@ Some notes on how I like to setup a new Mac:
     * install Powerlevel10k theme 
 
       * `git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k`
-      * `sed -i '' 's/ZSH_THEME="robbyrussell"/ZSH_THEME="powerlevel10k/powerlevel10k"/' ~/.zshrc`
+      * `sed -i '' "s/ZSH_THEME=\".*\"/ZSH_THEME=\"powerlevel10k\/powerlevel10k\"/" ~/.zshrc`
       * `source ~/.zshrc`
   * install Powerline Fonts
 
