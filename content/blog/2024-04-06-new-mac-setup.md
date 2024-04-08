@@ -15,7 +15,7 @@ Some notes on how I like to setup a new Mac:
     * `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
     * `(echo; echo 'eval "$(/usr/local/bin/brew shellenv)"') >> /Users/mark/.zprofile`
     * `eval "$(/usr/local/bin/brew shellenv)"`
-    * `brew install arc iterm2 dockutil node visual-studio-code Spotify`
+    * `brew install arc iterm2 dockutil node visual-studio-code spotify`
 * in terminal
 
   * `mkdir ~/Applications` (install non-brew apps here to keep them sandboxed to current Mac user)
