@@ -15,17 +15,19 @@ Some notes on how I like to setup a new Mac:
     * `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
     * `(echo; echo 'eval "$(/usr/local/bin/brew shellenv)"') >> /Users/mark/.zprofile`
     * `eval "$(/usr/local/bin/brew shellenv)"`
+  * `install iTerm2`
+
+    * `` `brew install iterm2` ``
   * install Oh My Zsh
 
     * `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
-  * install dark solarized color scheme
+  * iTerm2 settings:
 
-    * `mkdir ~/iterm-color-schemes`
-    * `cd ~/iterm-color-schemes`
-    * `curl -O https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/Solarized%20Dark%20-%20Patched.itermcolors`
-    * `chmod 755`
-    * `open .`
-    * double click `Solarized%20Dark%20-%20Patched.itermcolors`
+    * general -> closing: uncheck both quit confirmations
+    * profile
+
+      * colors -> color presets -> Solarized Dark
+      * terminal -> check Unlimited Scrollback
   * install Powerline Fonts
 
     * `git clone https://github.com/powerline/fonts.git --depth=1`
