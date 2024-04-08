@@ -17,7 +17,7 @@ Some notes on how I like to setup a new Mac:
     * `eval "$(/usr/local/bin/brew shellenv)"`
   * install iTerm2 & VScode
 
-    * `` `brew install iterm2 ``
+    * `brew install iterm2`
   * install Oh My Zsh
 
     * `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
@@ -37,11 +37,11 @@ Some notes on how I like to setup a new Mac:
     * `install zsh autosuggestions`
 
       * `git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
-      * `plugins=( `
+      * `plugins=(`
 
-        `    # other plugins...`
+        `# other plugins...`
 
-        `    zsh-autosuggestions`
+        `zsh-autosuggestions`
 
         `)`
       * `source ~/.zshrc`
