@@ -28,6 +28,13 @@ Some notes on how I like to setup a new Mac:
 
       * colors -> color presets -> Solarized Dark
       * terminal -> check Unlimited Scrollback
+    * install Agnoster theme
+
+      * `sed -i '' 's/ZSH_THEME="robbyrussell"/ZSH_THEME="agnoster"/' ~/.zshrc`
+      * `source ~/.zshrc`
+    * install Powerlevel10k theme 
+
+      * `git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k`
   * install Powerline Fonts
 
     * `git clone https://github.com/powerline/fonts.git --depth=1`
@@ -35,10 +42,8 @@ Some notes on how I like to setup a new Mac:
     * `./install.sh`
     * `cd ..`
     * `rm -rf fonts`
-  * install Agnoster theme
 
-    * `sed -i '' 's/ZSH_THEME="robbyrussell"/ZSH_THEME="agnoster"/' ~/.zshrc`
-  * clone Powerlevel10k theme: `cd ~/.oh-my-zsh/themes && git clone https://github.com/romkatv/powerlevel10k.git`
+
   * https://www.youtube.com/watch?v=0FZSshb1qTQ
 * in terminal
 
