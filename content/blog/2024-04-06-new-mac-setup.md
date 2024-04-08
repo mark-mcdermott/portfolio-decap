@@ -16,8 +16,8 @@ Some notes on how I like to setup a new Mac:
   * install dark solarized color scheme
 
     * `mkdir ~/iterm-color-schemes`
-    * `(cd target/path && curl -O URL)`
-    * `~/test`
+    * `(cd `
+    * `~/iterm-color-schemes/`
   * install Powerline Fonts
 
     * `git clone https://github.com/powerline/fonts.git --depth=1`
