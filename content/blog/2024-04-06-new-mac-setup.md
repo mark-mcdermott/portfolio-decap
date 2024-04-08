@@ -60,7 +60,7 @@ Some notes on how I like to setup a new Mac:
 
   * install main apps
 
-    * `brew install arc iterm2 dockutil node visual-studio-code spotify`
+    * `brew install arc dockutil node spotify`
   * miscellaneous conifguration
 
     * `mkdir ~/Applications` (install non-brew apps here to keep them sandboxed to current Mac user)
@@ -80,3 +80,6 @@ Some notes on how I like to setup a new Mac:
 
   * log in (as mcdermottsolutions@gmail.com)
   * set download folder to Desktop
+* Google
+
+  * log in (as YouTube premium account)
