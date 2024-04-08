@@ -15,9 +15,9 @@ Some notes on how I like to setup a new Mac:
     * `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
     * `(echo; echo 'eval "$(/usr/local/bin/brew shellenv)"') >> /Users/mark/.zprofile`
     * `eval "$(/usr/local/bin/brew shellenv)"`
-  * `install iTerm2`
+  * install iTerm2 & VScode
 
-    * `` `brew install iterm2` ``
+    * `` `brew install iterm2 ``
   * install Oh My Zsh
 
     * `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
@@ -28,6 +28,7 @@ Some notes on how I like to setup a new Mac:
 
       * colors -> color presets -> Solarized Dark
       * terminal -> check Unlimited Scrollback
+      * keys -> key mappings -> presets... -> Natural Text Editing
     * install Powerlevel10k theme 
 
       * `git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k`
@@ -44,6 +45,16 @@ Some notes on how I like to setup a new Mac:
 
         `)`
       * `source ~/.zshrc`
+    * `install syntax highlighting`
+
+      * `brew install zsh-syntax-highlighting`
+      * ``echo 'source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh` >> ~./zshrc``
+    * `set VScode terminal`
+
+      * `code .`
+      * command + ,
+      * `settings.json`
+      * add `"termional.integrated.fontFamily": "Meslo LG M for Powerline"`
   * https://www.youtube.com/watch?v=0FZSshb1qTQ
 * in terminal
 
