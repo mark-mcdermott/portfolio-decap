@@ -37,13 +37,7 @@ Some notes on how I like to setup a new Mac:
     * `install zsh autosuggestions`
 
       * `git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
-      * `plugins=(`
-
-        `# other plugins...`
-
-        `zsh-autosuggestions`
-
-        `)`
+      * `sed -i '' "s/plugins=(git)/`
       * `source ~/.zshrc`
     * `install syntax highlighting`
 
