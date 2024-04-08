@@ -54,7 +54,7 @@ Some notes on how I like to setup a new Mac:
       * `code .`
       * command + ,
       * `settings.json`
-      * add `"termional.integrated.fontFamily": "Meslo LG M for Powerline"`
+      * add `"termional.integrated.fontFamily": "MesloLGS NF"`
   * https://www.youtube.com/watch?v=0FZSshb1qTQ
 * in terminal
 
