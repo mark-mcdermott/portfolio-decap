@@ -10,25 +10,29 @@ Some notes on how I like to setup a new Mac:
   * set trackpad speed to 8/10
 * in terminal
 
-  * install homebrew & main apps
+  * install homebrew
 
     * `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
     * `(echo; echo 'eval "$(/usr/local/bin/brew shellenv)"') >> /Users/mark/.zprofile`
     * `eval "$(/usr/local/bin/brew shellenv)"`
-    * `brew install arc iterm2 dockutil node visual-studio-code spotify`
-* in terminal
+  * install main apps
 
-  * `mkdir ~/Applications` (install non-brew apps here to keep them sandboxed to current Mac user)
-  * `mkdir ~/Desktop/misc` (a folder I use for stashing junk in)
-  * `sudo spctl --master-disable` (allow downloads from anywhere)
-  * `dockutil --remove all` (remove default dock icons)
+    * `brew install arc iterm2 dockutil node visual-studio-code spotify`
+  * miscellaneous conifguration
+
+    * `mkdir ~/Applications` (install non-brew apps here to keep them sandboxed to current Mac user)
+    * `mkdir ~/Desktop/misc` (a folder I use for stashing junk in)
+    * `sudo spctl --master-disable` (allow downloads from anywhere)
+    * `dockutil --remove all` (remove default dock icons)
 * In Finder > settings > sidebar:
 
   * Favorites
 
-    * remove everything but Desktop
+    * remove everything but Desktop and Applications
     * add home folder
-  * Locations: add root folder
+  * Locations
+
+    * add root folder
 * Arc browser:
 
   * log in (as mcdermottsolutions@gmail.com)
