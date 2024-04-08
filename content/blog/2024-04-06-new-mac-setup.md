@@ -10,7 +10,7 @@ Some notes on how I like to setup a new Mac:
   * set trackpad speed to 8/10
 * terminal setup
 
-  * install homebrew
+  * install homebrew (~4 mins)
 
     * `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
     * `(echo; echo 'eval "$(/usr/local/bin/brew shellenv)"') >> /Users/mark/.zprofile`
