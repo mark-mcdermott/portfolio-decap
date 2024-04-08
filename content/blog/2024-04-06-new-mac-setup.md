@@ -16,13 +16,13 @@ Some notes on how I like to setup a new Mac:
   * install Powerline Fonts
 
     * `git clone https://github.com/powerline/fonts.git --depth=1`
-    * `cd fonts `
-    * `./install.sh `
-    * `cd .. `
+    * `cd fonts`
+    * `./install.sh`
+    * `cd ..`
     * `rm -rf fonts`
   * install Agnoster theme
 
-    * ?
+    * `sed -i '' 's/ZSH_THEME="robbyrussell"/ZSH_THEME="agnoster"/' ~/.zshrc`
   * clone Powerlevel10k theme: `cd ~/.oh-my-zsh/themes && git clone https://github.com/romkatv/powerlevel10k.git`
   * https://www.youtube.com/watch?v=0FZSshb1qTQ
 * in terminal
