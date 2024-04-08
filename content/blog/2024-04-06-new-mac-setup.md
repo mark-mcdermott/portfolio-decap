@@ -35,8 +35,15 @@ Some notes on how I like to setup a new Mac:
       * `source ~/.zshrc`
     * `install zsh autosuggestions`
 
-      * `brew install zsh-autosuggestions`
-      * `echo 'source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh' >> `
+      * `git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
+      * `plugins=( `
+
+        `    # other plugins...`
+
+        `    zsh-autosuggestions`
+
+        `)`
+      * `source ~/.zshrc`
   * https://www.youtube.com/watch?v=0FZSshb1qTQ
 * in terminal
 
