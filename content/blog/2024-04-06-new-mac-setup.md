@@ -17,7 +17,7 @@ Some notes on how I like to setup a new Mac:
     * `eval "$(/usr/local/bin/brew shellenv)"`
   * install iTerm2 & VScode
 
-    * `brew install iterm2`
+    * `brew install iterm2 visual-studio-code`
   * install Oh My Zsh
 
     * `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
