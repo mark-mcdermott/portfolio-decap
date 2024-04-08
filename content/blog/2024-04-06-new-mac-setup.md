@@ -13,6 +13,11 @@ Some notes on how I like to setup a new Mac:
   * install Oh My Zsh
 
     * `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
+  * install dark solarized color scheme
+
+    * `mkdir ~/iterm-color-schemes`
+    * `(cd target/path && curl -O URL)`
+    * `~/test`
   * install Powerline Fonts
 
     * `git clone https://github.com/powerline/fonts.git --depth=1`
