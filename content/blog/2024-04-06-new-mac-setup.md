@@ -8,6 +8,23 @@ Some notes on how I like to setup a new Mac:
 
   * change wallpaper to solid cyan
   * set trackpad speed to 8/10
+* terminal setup
+
+  * install Oh My Zsh
+
+    * `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
+  * install Powerline Fonts
+
+    * `git clone https://github.com/powerline/fonts.git --depth=1`
+    * `cd fonts `
+    * `./install.sh `
+    * `cd .. `
+    * `rm -rf fonts`
+  * install Agnoster theme
+
+    * ?
+  * clone Powerlevel10k theme: `cd ~/.oh-my-zsh/themes && git clone https://github.com/romkatv/powerlevel10k.git`
+  * https://www.youtube.com/watch?v=0FZSshb1qTQ
 * in terminal
 
   * install homebrew
@@ -37,20 +54,3 @@ Some notes on how I like to setup a new Mac:
 
   * log in (as mcdermottsolutions@gmail.com)
   * set download folder to Desktop
-* terminal setup
-
-  * install Oh My Zsh
-
-    * `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
-  * install Powerline Fonts
-
-    * `git clone https://github.com/powerline/fonts.git --depth=1`
-    * `cd fonts `
-    * `./install.sh `
-    * `cd .. `
-    * `rm -rf fonts`
-  * install Agnoster theme
-
-    * ?
-* clone Powerlevel10k theme: `cd ~/.oh-my-zsh/themes && git clone https://github.com/romkatv/powerlevel10k.git`
-* https://www.youtube.com/watch?v=0FZSshb1qTQ
