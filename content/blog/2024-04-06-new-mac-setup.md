@@ -10,6 +10,11 @@ Some notes on how I like to setup a new Mac:
   * set trackpad speed to 8/10
 * terminal setup
 
+  * install homebrew
+
+    * `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+    * `(echo; echo 'eval "$(/usr/local/bin/brew shellenv)"') >> /Users/mark/.zprofile`
+    * `eval "$(/usr/local/bin/brew shellenv)"`
   * install Oh My Zsh
 
     * `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
@@ -18,7 +23,7 @@ Some notes on how I like to setup a new Mac:
     * `mkdir ~/iterm-color-schemes`
     * `cd ~/iterm-color-schemes`
     * `curl -O https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/Solarized%20Dark%20-%20Patched.itermcolors`
-    * `chmod 755 `
+    * `chmod 755`
     * `open .`
     * double click `Solarized%20Dark%20-%20Patched.itermcolors`
   * install Powerline Fonts
@@ -35,11 +40,6 @@ Some notes on how I like to setup a new Mac:
   * https://www.youtube.com/watch?v=0FZSshb1qTQ
 * in terminal
 
-  * install homebrew
-
-    * `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
-    * `(echo; echo 'eval "$(/usr/local/bin/brew shellenv)"') >> /Users/mark/.zprofile`
-    * `eval "$(/usr/local/bin/brew shellenv)"`
   * install main apps
 
     * `brew install arc iterm2 dockutil node visual-studio-code spotify`
