@@ -33,15 +33,10 @@ Some notes on how I like to setup a new Mac:
       * `git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k`
       * `sed -i '' "s/ZSH_THEME=\".*\"/ZSH_THEME=\"powerlevel10k\/powerlevel10k\"/" ~/.zshrc`
       * `source ~/.zshrc`
-  * install Powerline Fonts
+    * `install zsh autosuggestions`
 
-    * `git clone https://github.com/powerline/fonts.git --depth=1`
-    * `cd fonts`
-    * `./install.sh`
-    * `cd ..`
-    * `rm -rf fonts`
-
-
+      * `brew install zsh-autosuggestions`
+      * `echo 'source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh' >> `
   * https://www.youtube.com/watch?v=0FZSshb1qTQ
 * in terminal
 
