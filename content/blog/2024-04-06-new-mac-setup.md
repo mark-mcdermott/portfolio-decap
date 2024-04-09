@@ -105,6 +105,10 @@ Some notes on how I like to setup a new Mac:
 * `Add VScode extensions`
 
   * `Vue - Official`
+  * `Render Line Endings`
+  * `GitLens`
+  * `Vim`
+  * `Prettier`
 
 ### Sources
 
