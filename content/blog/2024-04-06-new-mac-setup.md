@@ -15,17 +15,18 @@ Some notes on how I like to setup a new Mac:
     * `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
     * `(echo; echo 'eval "$(/usr/local/bin/brew shellenv)"') >> /Users/mark/.zprofile`
     * `eval "$(/usr/local/bin/brew shellenv)"`
-  * install apps
+  * install apps (~5 mins)
 
-    * `brew install iterm2 visual-studio-code textbar arc adobe-creative-cloud alfred inkscape blender spotify 1password slack` (takes 5ish mins, have to enter password for adobe)
-  * install fusion 360 (~3 mins?)
+    * `brew install iterm2 visual-studio-code textbar arc alfred inkscape blender spotify 1password slack postgres`
+  * install adoble creative cloud
+
+    * `adobe-creative-cloud`
+    * will have to enter password
+  * install fusion 360 (~3 mins)
 
     * `brew install autodesk-fusion`
     * will have to click notification, allow permissions in settings
     * and then run `brew install autodesk-fusion` again
-  * install libraries used by asdf for node install (delete?)
-
-    * `brew install gpg gawk`
   * install Oh My Zsh
 
     * `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
