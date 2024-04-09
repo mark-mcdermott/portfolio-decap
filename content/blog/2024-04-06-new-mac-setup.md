@@ -133,7 +133,8 @@ Some notes on how I like to setup a new Mac:
     * mkdir ~/scripts/isOnline -p
     * touch ~/scripts/isOnline sitestatus.txt
     * echo -e "https://markmcdermott.io;markmcdermott.io\n" > ~/scripts/isOnline/websites.lst
-    *   ```
+
+```
       cat <<EOT >> ~/scripts/SiteStatus.sh
       #!/bin/bash
 
@@ -197,7 +198,7 @@ Some notes on how I like to setup a new Mac:
       echo -e "$ICONLINE\n$(cat $SITESTATUS)" > $SITESTATUS
       cat $SITESTATUS
       EOT
-      ```
+```
 
 ### Sources
 
