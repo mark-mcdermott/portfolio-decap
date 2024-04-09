@@ -123,7 +123,7 @@ Some notes on how I like to setup a new Mac:
     * script: `osascript -e 'if application "Spotify" is running then' -e 'tell application "Spotify"' -e 'if player state is playing then' -e 'return "♫ " & (artist of current track as string) & " - " & (name of current track as string)' -e 'end if' -e 'end tell' -e 'end if'`
     * refresh:` 5 seconds`
     * no icon
-  * add Site Up?
+  * add Site Status
 
     * mkdir ~/scripts/isOnline -p
     * touch ~/scripts/isOnline sitestatus.txt
