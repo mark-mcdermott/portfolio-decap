@@ -21,7 +21,7 @@ Some notes on how I like to setup a new Mac:
   * install fusion 360 (will have to allow changes on a notification that pops up)
 
     * `brew install autodesk-fusion`
-  * install libraries used by asdf for node install
+  * install libraries used by asdf for node install (delete?)
 
     * `brew install gpg gawk`
   * install Oh My Zsh
