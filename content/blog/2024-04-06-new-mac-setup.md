@@ -81,7 +81,7 @@ Some notes on how I like to setup a new Mac:
   * set VScode terminal to match iTerm
 
     * `code .`
-    * command + shift + p,
+    * command + shift + p
     * `Preferences: Open User Settings (JSON)`
     * add `"terminal.integrated.fontFamily": "MesloLGS NF"` inside the JSON curly brackets
   * Add VScode extensions
