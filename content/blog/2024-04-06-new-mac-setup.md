@@ -96,7 +96,142 @@ Some notes on how I like to setup a new Mac:
 
   * `mkdir ~/Desktop/misc` (a folder I use for stashing junk in)
   * `sudo spctl --master-disable` (will need password, allows downloads from anywhere)
+* setup dock
+
   * `dockutil --remove all` (remove default dock icons)
+  * mkdir ~/.dock
+  * paste this script in terminal to create the ~/.dock/dock.plist file
+
+```
+cat <<EOT >> ~/.dock/dock.plist
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Dock</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>dockmaster.markdock</string>
+			<key>PayloadType</key>
+			<string>com.apple.dock</string>
+			<key>PayloadUUID</key>
+			<string>53C8408D-DFF2-4838-87E3-C54F9CD5478B</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>autohide</key>
+			<false/>
+			<key>contents-immutable</key>
+			<false/>
+			<key>largesize</key>
+			<integer>128</integer>
+			<key>launchanim</key>
+			<true/>
+			<key>launchanim-immutable</key>
+			<false/>
+			<key>magnification</key>
+			<false/>
+			<key>magnify-immutable</key>
+			<false/>
+			<key>magsize-immutable</key>
+			<false/>
+			<key>mineffect</key>
+			<string>genie</string>
+			<key>mineffect-immutable</key>
+			<false/>
+			<key>minimize-to-application</key>
+			<false/>
+			<key>minimize-to-application-immutable</key>
+			<false/>
+			<key>orientation</key>
+			<string>bottom</string>
+			<key>position-immutable</key>
+			<false/>
+			<key>show-process-indicators</key>
+			<true/>
+			<key>show-process-indicators-immutable</key>
+			<false/>
+			<key>size-immutable</key>
+			<false/>
+			<key>static-apps</key>
+			<array>
+				<dict>
+					<key>tile-data</key>
+					<dict>
+						<key>file-data</key>
+						<dict>
+							<key>_CFURLString</key>
+							<string>/Applications/Arc.app</string>
+							<key>_CFURLStringType</key>
+							<integer>0</integer>
+						</dict>
+					</dict>
+					<key>tile-type</key>
+					<string>file-tile</string>
+				</dict>
+				<dict>
+					<key>tile-data</key>
+					<dict>
+						<key>file-data</key>
+						<dict>
+							<key>_CFURLString</key>
+							<string>/Applications/Slack.app</string>
+							<key>_CFURLStringType</key>
+							<integer>0</integer>
+						</dict>
+					</dict>
+					<key>tile-type</key>
+					<string>file-tile</string>
+				</dict>
+				<dict>
+					<key>tile-data</key>
+					<dict>
+						<key>file-data</key>
+						<dict>
+							<key>_CFURLString</key>
+							<string>/Applications/Spotify.app</string>
+							<key>_CFURLStringType</key>
+							<integer>0</integer>
+						</dict>
+					</dict>
+					<key>tile-type</key>
+					<string>file-tile</string>
+				</dict>
+			</array>
+			<key>static-only</key>
+			<true/>
+			<key>tilesize</key>
+			<integer>68</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>This dock profile was generated using Dock Master from https://techion.com.au.</string>
+	<key>PayloadDisplayName</key>
+	<string>mark dock</string>
+	<key>PayloadIdentifier</key>
+	<string>markdock</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>C746476F-EBB6-44A4-BF7B-48FF1A445751</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
+EOT
+
+```
+
+
+
 * In Finder > settings > sidebar:
 
   * Favorites
