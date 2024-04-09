@@ -230,8 +230,7 @@ EOT
 
 ```
 
-
-
+* `dockutil --add ~/.dock/dock.plist`
 * In Finder > settings > sidebar:
 
   * Favorites
