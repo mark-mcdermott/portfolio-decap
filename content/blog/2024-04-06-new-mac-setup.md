@@ -84,7 +84,7 @@ Some notes on how I like to setup a new Mac:
     * `code .`
     * command + shift + p,
     * `Preferences: Open User Settings (JSON)`
-    * add `"terminal.integrated.fontFamily": "MesloLGS NF"`
+    * add `"terminal.integrated.fontFamily": "MesloLGS NF"` inside the JSON curly brackets
   * Add VScode extensions
 
     * Vue - Official
