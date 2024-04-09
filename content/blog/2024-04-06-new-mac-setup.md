@@ -107,13 +107,13 @@ Some notes on how I like to setup a new Mac:
 
     * `asdf plugin-add java`
     * `asdf install python latest`
-* `Add VScode extensions`
+* Add VScode extensions
 
-  * `Vue - Official`
-  * `Render Line Endings`
-  * `GitLens`
-  * `Vim`
-  * `Prettier`
+  * Vue - Official
+  * Render Line Endings
+  * GitLens
+  * Vim
+  * Prettier
 
 ### Sources
 
