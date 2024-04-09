@@ -121,7 +121,7 @@ Some notes on how I like to setup a new Mac:
   * add Spotify 
 
     * script: `osascript -e 'if application "Spotify" is running then' -e 'tell application "Spotify"' -e 'if player state is playing then' -e 'return "♫ " & (artist of current track as string) & " - " & (name of current track as string)' -e 'end if' -e 'end tell' -e 'end if'`
-    * refresh:` 5 seconds`
+    * refresh:`5 seconds`
     * no icon
   * Add docs
 
@@ -130,9 +130,9 @@ Some notes on how I like to setup a new Mac:
     * todo: change color from cyan to black
   * add Site Status
 
-    * mkdir ~/scripts/isOnline -p
-    * touch ~/scripts/isOnline sitestatus.txt
-    * echo -e "https://markmcdermott.io;markmcdermott.io\n" > ~/scripts/isOnline/websites.lst
+    * `mkdir ~/scripts/isOnline -p`
+    * `touch ~/scripts/isOnline sitestatus.txt`
+    * `echo -e "https://markmcdermott.io;markmcdermott.io\n" > ~/scripts/isOnline/websites.lst`
     * paste this script in terminal to create the SiteStatus script
 
 ```
