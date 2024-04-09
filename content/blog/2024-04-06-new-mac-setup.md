@@ -18,7 +18,7 @@ Some notes on how I like to setup a new Mac:
   * install apps
 
     * `brew install iterm2 visual-studio-code textbar arc adobe-creative-cloud alfred inkscape blender spotify 1password ` (takes 5ish mins, have to enter password for adobe)
-  * install fusion 360
+  * install fusion 360 (~3 mins?)
 
     * `brew install autodesk-fusion`
     * will have to click notification, allow permissions in settings
