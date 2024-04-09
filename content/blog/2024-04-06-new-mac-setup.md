@@ -74,7 +74,7 @@ Some notes on how I like to setup a new Mac:
     * `asdf install nodejs latest`
     * `asdf global nodejs latest`
     * `asdf install ruby latest` (~4 mins, click the toast notification & allow notifications)
-    * `asdf install python latest` (~1 min)
+    * `asdf install python latest` (~2 min)
     * `asdf install java latest`
 * setup VScode
 
