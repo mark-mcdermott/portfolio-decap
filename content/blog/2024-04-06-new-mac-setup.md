@@ -17,7 +17,7 @@ Some notes on how I like to setup a new Mac:
     * `eval "$(/usr/local/bin/brew shellenv)"`
   * install apps
 
-    * `brew install iterm2 visual-studio-code dockutil textbar arc adobe-creative-cloud alfred Inkscape blender spotify 1password`
+    * `brew install iterm2 visual-studio-code dockutil textbar arc adobe-creative-cloud alfred Inkscape blender spotify 1password` (takes 10ish mins?)
   * install fusion 360 (will have to allow changes on a notification that pops up)
 
     * `brew install autodesk-fusion`
