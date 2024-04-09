@@ -94,7 +94,6 @@ Some notes on how I like to setup a new Mac:
     * todo: maybe Vim plugin?
 * miscellaneous configurations from terminal
 
-  * `mkdir ~/Applications` (install non-brew apps here to keep them sandboxed to current Mac user)
   * `mkdir ~/Desktop/misc` (a folder I use for stashing junk in)
   * `sudo spctl --master-disable` (allow downloads from anywhere)
   * `dockutil --remove all` (remove default dock icons)
