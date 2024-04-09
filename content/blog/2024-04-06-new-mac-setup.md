@@ -51,6 +51,10 @@ Some notes on how I like to setup a new Mac:
       * `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
       * `sed -i '' "s/plugins=(git zsh-autosuggestions)/plugins=(git zsh-autosuggestions zsh-syntax-highlighting)/" ~/.zshrc`
       * `source ~/.zshrc`
+    * install asdf
+
+      * `git clone https://github.com/asdf-vm/asdf.git ~/.asdf`
+      * `sed -i '' "s/plugins=(git zsh-autosuggestions)/plugins=(git zsh-autosuggestions zsh-syntax-highlighting asdf)/" ~/.zshrc`
     * set VScode terminal to match iTerm
 
       * `code .`
@@ -74,45 +78,32 @@ Some notes on how I like to setup a new Mac:
   * Locations
 
     * add root folder
-* Arc browser:
+* Log into apps
 
-  * log in (as mcdermottsolutions@gmail.com)
-  * set download folder to Desktop
-* Google
+  * Alfred 
 
-  * log in (as YouTube premium account)
-* CleanShot
+    * login
+  * Arc browser:
 
-  * download cleanshot & log into personal account at  [licenses.cleanshot.com/download/cleanshotx](https://licenses.cleanshot.com/download/cleanshotx)
-* Alfred 
+    * log in (as mcdermottsolutions@gmail.com)
+    * set download folder to Desktop
+  * Google
 
-  * login
+    * log in (as YouTube premium account)
+  * CleanShot
+
+    * download cleanshot & log into personal account at  [licenses.cleanshot.com/download/cleanshotx](https://licenses.cleanshot.com/download/cleanshotx)
 * Install node, ruby and python and java
 
-  * install asdf
-
-    * `brew install coreutils curl git` (remove?)
-    * `brew install asdf`
-    * `git clone https://github.com/asdf-vm/asdf.git ~/.asdf`
-    * `sed -i '' "s/plugins=`  (remove?)
-  * install node
-
-    * `brew install gpg gawk`  (remove?)
-    * `asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git`
-    * `asdf install nodejs latest`
-    * `asdf global nodejs latest`
-  * install ruby
-
-    * `asdf plugin add ruby`
-    * `asdf install ruby latest`
-  * install python
-
-    * `asdf plugin add python`
-    * `asdf install python latest`
-  * install java
-
-    * `asdf plugin-add java`
-    * `asdf install python latest`
+  * `asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git`
+  * `asdf install nodejs latest`
+  * `asdf global nodejs latest`
+  * `asdf plugin add ruby`
+  * `asdf install ruby latest`
+  * `asdf plugin add python`
+  * `asdf install python latest`
+  * `asdf plugin-add java`
+  * `asdf install python latest`
 * Add VScode extensions
 
   * Vue - Official
