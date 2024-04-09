@@ -99,7 +99,7 @@ Some notes on how I like to setup a new Mac:
 * setup dock
 
   * `dockutil --remove all` (remove default dock icons)
-  * mkdir ~/.dock
+  * `mkdir ~/.dock`
   * paste this script in terminal to create the ~/.dock/dock.plist file
 
 ```
@@ -227,7 +227,6 @@ cat <<EOT >> ~/.dock/dock.plist
 </dict>
 </plist>
 EOT
-
 ```
 
 * `dockutil --add ~/.dock/dock.plist`
