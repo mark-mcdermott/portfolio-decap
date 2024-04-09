@@ -82,6 +82,12 @@ Some notes on how I like to setup a new Mac:
 
   * download cleanshot & log into personal account at  [licenses.cleanshot.com/download/cleanshotx](https://licenses.cleanshot.com/download/cleanshotx)
 * Install ruby & rails
+
+  * install asdf
+
+    * `brew install coreutils curl git`
+    * `brew install asdf`
+  * z
 * Install alfred
 
 ### Sources
