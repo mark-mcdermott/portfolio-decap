@@ -37,12 +37,12 @@ Some notes on how I like to setup a new Mac:
     * install zsh autosuggestions
 
       * `git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
-      * `sed -i '' "s/plugins=(git)/`
+      * `sed -i '' "s/plugins=(git)/plugins=(git zsh-autosuggestions)/"`
       * `source ~/.zshrc`
     * install syntax highlighting
 
       * `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
-      * `sed -i '' "s/plugins=(`
+      * `sed -i '' "s/plugins=(git zsh-autosuggestions)/plugins=(git zsh-autosuggestions zsh-syntax-highlighting)/"`
       * `source ~/.zshrc`
     * set VScode terminal
 
