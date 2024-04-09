@@ -81,7 +81,7 @@ Some notes on how I like to setup a new Mac:
 * Alfred 
 
   * login
-* Install node and ruby
+* Install node, ruby and python
 
   * install asdf
 
@@ -99,6 +99,9 @@ Some notes on how I like to setup a new Mac:
 
     * `asdf plugin add ruby`
     * `asdf install ruby latest`
+  * install python
+
+    * `asdf plugin-add python`
 * `Add VScode extensions`
 
   * `Vue - Official`
