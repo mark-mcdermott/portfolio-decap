@@ -17,10 +17,12 @@ Some notes on how I like to setup a new Mac:
     * `eval "$(/usr/local/bin/brew shellenv)"`
   * install apps
 
-    * `brew install iterm2 visual-studio-code dockutil textbar arc adobe-creative-cloud alfred inkscape blender spotify 1password` (takes 10ish mins?)
-  * install fusion 360 (will have to allow changes on a notification that pops up)
+    * `brew install iterm2 visual-studio-code textbar arc adobe-creative-cloud alfred inkscape blender spotify 1password ` (takes 5ish mins, have to enter password for adobe)
+  * install fusion 360
 
     * `brew install autodesk-fusion`
+    * will have to click notification, allow permissions in settings
+    * and then run `brew install autodesk-fusion` again
   * install libraries used by asdf for node install (delete?)
 
     * `brew install gpg gawk`
