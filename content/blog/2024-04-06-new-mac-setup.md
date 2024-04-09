@@ -18,6 +18,9 @@ Some notes on how I like to setup a new Mac:
   * install apps
 
     * `brew install iterm2 visual-studio-code dockutil textbar arc adobe-creative-cloud alfred Inkscape blender Spotify autodesk-fusion 1password`
+  * install libraries used by asdf for node install
+
+    * `brew install gpg gawk`
   * install Oh My Zsh
 
     * `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
@@ -85,13 +88,13 @@ Some notes on how I like to setup a new Mac:
 
   * install asdf
 
-    * `brew install coreutils curl git`
+    * `brew install coreutils curl git` (remove?)
     * `brew install asdf`
     * `git clone https://github.com/asdf-vm/asdf.git ~/.asdf`
-    * `sed -i '' "s/plugins=`
+    * `sed -i '' "s/plugins=`  (remove?)
   * install node
 
-    * `brew install gpg gawk`
+    * `brew install gpg gawk`  (remove?)
     * `asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git`
     * `asdf install nodejs latest`
     * `asdf global nodejs latest`
