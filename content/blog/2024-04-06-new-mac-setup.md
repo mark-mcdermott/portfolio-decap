@@ -55,7 +55,7 @@ Some notes on how I like to setup a new Mac:
 
   * install main apps
 
-    * `brew install arc dockutil spotify alfred`
+    * `brew install arc dockutil spotify alfred adobe-creative-cloud inkscape blender autodesk-fusion360`
   * miscellaneous conifguration
 
     * `mkdir ~/Applications` (install non-brew apps here to keep them sandboxed to current Mac user)
@@ -102,6 +102,9 @@ Some notes on how I like to setup a new Mac:
 
     * `asdf plugin add ruby`
     * `asdf install ruby latest`
+* `Add VScode extensions`
+
+  * `Vue - Official`
 
 ### Sources
 
