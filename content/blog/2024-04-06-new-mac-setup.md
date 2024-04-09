@@ -81,6 +81,9 @@ Some notes on how I like to setup a new Mac:
 * CleanShot
 
   * download cleanshot & log into personal account at  [licenses.cleanshot.com/download/cleanshotx](https://licenses.cleanshot.com/download/cleanshotx)
+* Alfred 
+
+  * login
 * Install node and ruby
 
   * install asdf
@@ -99,7 +102,6 @@ Some notes on how I like to setup a new Mac:
 
     * `asdf plugin add ruby`
     * `asdf install ruby latest`
-* Install alfred
 
 ### Sources
 
