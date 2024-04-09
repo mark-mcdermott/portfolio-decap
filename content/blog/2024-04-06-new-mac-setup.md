@@ -41,8 +41,9 @@ Some notes on how I like to setup a new Mac:
       * `source ~/.zshrc`
     * install syntax highlighting
 
-      * `brew install zsh-syntax-highlighting`
-      * ``echo 'source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh` >> ~./zshrc``
+      * `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
+      * `sed -i '' "s/plugins=(`
+      * `source ~/.zshrc`
     * set VScode terminal
 
       * `code .`
