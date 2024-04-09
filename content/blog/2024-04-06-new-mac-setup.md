@@ -8,7 +8,7 @@ Some notes on how I like to setup a new Mac:
 
   * change wallpaper to solid cyan
   * set trackpad speed to 8/10
-* terminal setup
+* install main apps
 
   * install homebrew (~3 mins)
 
@@ -30,54 +30,65 @@ Some notes on how I like to setup a new Mac:
   * install Oh My Zsh
 
     * `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
-  * iTerm2 settings:
+* iTerm2 settings:
 
-    * general -> closing: uncheck both quit confirmations
-    * profile
+  * general -> closing: uncheck both quit confirmations
+  * profile
 
-      * colors -> color presets -> Solarized Dark
-      * colors -> ANSI Colors -> Black Bright -> #565656
-      * terminal -> check Unlimited Scrollback
-      * keys -> key mappings -> presets... -> Natural Text Editing -> Keep
-    * install Powerlevel10k theme 
+    * colors -> color presets -> Solarized Dark
+    * colors -> ANSI Colors -> Black Bright -> #565656
+    * terminal -> check Unlimited Scrollback
+    * keys -> key mappings -> presets... -> Natural Text Editing -> Keep
+  * install Powerlevel10k theme 
 
-      * `git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k`
-      * `sed -i '' "s/ZSH_THEME=\".*\"/ZSH_THEME=\"powerlevel10k\/powerlevel10k\"/" ~/.zshrc`
-      * `source ~/.zshrc`
-    * install zsh autosuggestions
+    * `git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k`
+    * `sed -i '' "s/ZSH_THEME=\".*\"/ZSH_THEME=\"powerlevel10k\/powerlevel10k\"/" ~/.zshrc`
+    * `source ~/.zshrc`
+  * install zsh autosuggestions
 
-      * `git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
-      * `sed -i '' -e "s/plugins=(git)/plugins=(git zsh-autosuggestions)/" ~/.zshrc`
-      * `source ~/.zshrc`
-    * install syntax highlighting
+    * `git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
+    * `sed -i '' -e "s/plugins=(git)/plugins=(git zsh-autosuggestions)/" ~/.zshrc`
+    * `source ~/.zshrc`
+  * install syntax highlighting
 
-      * `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
-      * `sed -i '' "s/plugins=(git zsh-autosuggestions)/plugins=(git zsh-autosuggestions zsh-syntax-highlighting)/" ~/.zshrc`
-      * `source ~/.zshrc`
-      * "always allow" (always allow scrollback history clears)
-      * y, command + q, command + space -> iterm, y, command + q, command + space -> iterm, y, y, y, y, 3, 1, 2, 1, 1, 1, 2, 2, 2, n, 1, y
-    * install asdf
+    * `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
+    * `sed -i '' "s/plugins=(git zsh-autosuggestions)/plugins=(git zsh-autosuggestions zsh-syntax-highlighting)/" ~/.zshrc`
+    * `source ~/.zshrc`
+    * "always allow" (always allow scrollback history clears)
+    * y, command + q, command + space -> iterm, y, command + q, command + space -> iterm, y, y, y, y, 3, 1, 2, 1, 1, 1, 2, 2, 2, n, 1, y
+* install programming languages
 
-      * `git clone https://github.com/asdf-vm/asdf.git ~/.asdf`
-      * `sed -i '' "s/plugins=(git zsh-autosuggestions zsh-syntax-highlighting)/plugins=(git zsh-autosuggestions zsh-syntax-highlighting asdf)/" ~/.zshrc`
-      * `source ~/.zshrc`
-    * Install node, ruby and python and java
+  * install asdf
 
-      * `asdf plugin add nodejs`
-      * `asdf install nodejs latest`
-      * `asdf global nodejs latest`
-      * `asdf plugin add ruby`
-      * `asdf install ruby latest`
-      * `asdf plugin add python`
-      * `asdf install python latest`
-      * `asdf plugin-add java`
-      * `asdf install python latest`
-    * set VScode terminal to match iTerm
+    * `git clone https://github.com/asdf-vm/asdf.git ~/.asdf`
+    * `sed -i '' "s/plugins=(git zsh-autosuggestions zsh-syntax-highlighting)/plugins=(git zsh-autosuggestions zsh-syntax-highlighting asdf)/" ~/.zshrc`
+    * `source ~/.zshrc`
+  * Install node, ruby and python and java
 
-      * `code .`
-      * command + shift + p,
-      * `Preferences: Open User Settings (JSON)`
-      * add `"terminal.integrated.fontFamily": "MesloLGS NF"`
+    * `asdf plugin add nodejs`
+    * `asdf install nodejs latest`
+    * `asdf global nodejs latest`
+    * `asdf plugin add ruby`
+    * `asdf install ruby latest`
+    * `asdf plugin add python`
+    * `asdf install python latest`
+    * `asdf plugin-add java`
+    * `asdf install python latest`
+* setup VScode
+
+  * set VScode terminal to match iTerm
+
+    * `code .`
+    * command + shift + p,
+    * `Preferences: Open User Settings (JSON)`
+    * add `"terminal.integrated.fontFamily": "MesloLGS NF"`
+  * Add VScode extensions
+
+    * Vue - Official
+    * Render Line Endings
+    * GitLens
+    * Vim
+    * Prettier
 * miscellaneous configurations from terminal
 
   * `mkdir ~/Applications` (install non-brew apps here to keep them sandboxed to current Mac user)
@@ -107,14 +118,7 @@ Some notes on how I like to setup a new Mac:
     * log in (as YouTube premium account)
   * CleanShot
 
-    * download cleanshot & log into personal account at  [licenses.cleanshot.com/download/cleanshotx](https://licenses.cleanshot.com/download/cleanshotx)``
-* Add VScode extensions
-
-  * Vue - Official
-  * Render Line Endings
-  * GitLens
-  * Vim
-  * Prettier
+    * download cleanshot & log into personal account at  [licenses.cleanshot.com/download/cleanshotx](https://licenses.cleanshot.com/download/cleanshotx)
 * Setup github
 
   * login to github?
