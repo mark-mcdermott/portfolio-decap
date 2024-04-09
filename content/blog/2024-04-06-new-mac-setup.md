@@ -72,7 +72,7 @@ Some notes on how I like to setup a new Mac:
     * `asdf install nodejs latest`
     * `asdf global nodejs latest`
     * `asdf plugin add ruby`
-    * `asdf install ruby latest` (~2 mins)
+    * `asdf install ruby latest` (~3 mins)
     * `asdf plugin add python`
     * `asdf install python latest`
     * `asdf plugin-add java`
