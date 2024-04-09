@@ -59,6 +59,18 @@ Some notes on how I like to setup a new Mac:
 
       * `git clone https://github.com/asdf-vm/asdf.git ~/.asdf`
       * `sed -i '' "s/plugins=(git zsh-autosuggestions zsh-syntax-highlighting)/plugins=(git zsh-autosuggestions zsh-syntax-highlighting asdf)/" ~/.zshrc`
+      * `source ~/.zshrc`
+    * Install node, ruby and python and java
+
+      * `asdf plugin add nodejs`
+      * `asdf install nodejs latest`
+      * `asdf global nodejs latest`
+      * `asdf plugin add ruby`
+      * `asdf install ruby latest`
+      * `asdf plugin add python`
+      * `asdf install python latest`
+      * `asdf plugin-add java`
+      * `asdf install python latest`
     * set VScode terminal to match iTerm
 
       * `code .`
@@ -96,18 +108,7 @@ Some notes on how I like to setup a new Mac:
     * log in (as YouTube premium account)
   * CleanShot
 
-    * download cleanshot & log into personal account at  [licenses.cleanshot.com/download/cleanshotx](https://licenses.cleanshot.com/download/cleanshotx)
-* Install node, ruby and python and java
-
-  * `asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git`
-  * `asdf install nodejs latest`
-  * `asdf global nodejs latest`
-  * `asdf plugin add ruby`
-  * `asdf install ruby latest`
-  * `asdf plugin add python`
-  * `asdf install python latest`
-  * `asdf plugin-add java`
-  * `asdf install python latest`
+    * download cleanshot & log into personal account at  [licenses.cleanshot.com/download/cleanshotx](https://licenses.cleanshot.com/download/cleanshotx)``
 * Add VScode extensions
 
   * Vue - Official
