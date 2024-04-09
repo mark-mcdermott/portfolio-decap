@@ -77,14 +77,12 @@ Some notes on how I like to setup a new Mac:
       * command + shift + p,
       * `Preferences: Open User Settings (JSON)`
       * add `"terminal.integrated.fontFamily": "MesloLGS NF"`
-* in terminal
+* miscellaneous configurations from terminal
 
-  * miscellaneous conifguration
-
-    * `mkdir ~/Applications` (install non-brew apps here to keep them sandboxed to current Mac user)
-    * `mkdir ~/Desktop/misc` (a folder I use for stashing junk in)
-    * `sudo spctl --master-disable` (allow downloads from anywhere)
-    * `dockutil --remove all` (remove default dock icons)
+  * `mkdir ~/Applications` (install non-brew apps here to keep them sandboxed to current Mac user)
+  * `mkdir ~/Desktop/misc` (a folder I use for stashing junk in)
+  * `sudo spctl --master-disable` (allow downloads from anywhere)
+  * `dockutil --remove all` (remove default dock icons)
 * In Finder > settings > sidebar:
 
   * Favorites
