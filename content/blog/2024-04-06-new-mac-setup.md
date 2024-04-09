@@ -22,7 +22,7 @@ Some notes on how I like to setup a new Mac:
 
     * `brew install adobe-creative-cloud`
     * will have to enter password
-  * install fusion 360 (~3 mins)
+  * install fusion 360 (~5 mins)
 
     * `brew install autodesk-fusion`
     * will have to click notification, allow permissions in settings and restart terminal 
