@@ -75,7 +75,7 @@ Some notes on how I like to setup a new Mac:
     * `asdf global nodejs latest`
     * `asdf install ruby latest` (~4 mins, click the toast notification & allow notifications)
     * `asdf install python latest` (~2 min)
-    * `asdf install java latest`
+    * todo: install intellij (with brew?) and whatever it needs (sdk?) with asdf?
 * setup VScode
 
   * set VScode terminal to match iTerm
