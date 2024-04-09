@@ -58,7 +58,7 @@ Some notes on how I like to setup a new Mac:
     * install asdf
 
       * `git clone https://github.com/asdf-vm/asdf.git ~/.asdf`
-      * `sed -i '' "s/plugins=(git zsh-autosuggestions)/plugins=(git zsh-autosuggestions zsh-syntax-highlighting asdf)/" ~/.zshrc`
+      * `sed -i '' "s/plugins=(`
     * set VScode terminal to match iTerm
 
       * `code .`
