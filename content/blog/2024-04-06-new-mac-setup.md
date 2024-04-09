@@ -119,23 +119,23 @@ Some notes on how I like to setup a new Mac:
 * Log into apps
 
   * Alfred 
-
-    * login
   * Arc browser:
 
     * log in (as mcdermottsolutions@gmail.com)
     * set download folder to Desktop
-  * Google
+  * Google (use YouTube premium account)
+  * CleanShot ([licenses.cleanshot.com/download/cleanshotx](https://licenses.cleanshot.com/download/cleanshotx))[](https://licenses.cleanshot.com/download/cleanshotx)
+  * Github
 
-    * log in (as YouTube premium account)
-  * CleanShot
+    * log in
+    * get personal access token
 
-    * download cleanshot & log into personal account at  [licenses.cleanshot.com/download/cleanshotx](https://licenses.cleanshot.com/download/cleanshotx)
-* Setup github
-
-  * login to github?
-  * get key?
-  * add key to .ssh/config?
+      * avatar -> settings -> developer settings -> personal access tokens -> tokens (classic) -> generate new token (classic)
+      * note: "old dox intel macbook"
+      * expiration: 90 days
+      * scope: repo
+      * copy token
+    * add key to .ssh/config?
 * Setup menubar
 
   * run Textbar
