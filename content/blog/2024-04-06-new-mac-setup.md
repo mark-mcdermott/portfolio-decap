@@ -20,7 +20,7 @@ Some notes on how I like to setup a new Mac:
     * `brew install iterm2 visual-studio-code textbar arc alfred inkscape blender spotify 1password slack postgresql dockutil`
   * install adoble creative cloud
 
-    * `adobe-creative-cloud`
+    * `brew install adobe-creative-cloud`
     * will have to enter password
   * install fusion 360 (~3 mins)
 
