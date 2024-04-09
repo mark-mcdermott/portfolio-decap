@@ -37,7 +37,7 @@ Some notes on how I like to setup a new Mac:
       * colors -> color presets -> Solarized Dark
       * colors -> ANSI Colors -> Black Bright -> #565656
       * terminal -> check Unlimited Scrollback
-      * keys -> key mappings -> presets... -> Natural Text Editing
+      * keys -> key mappings -> presets... -> Natural Text Editing -> Keep
     * install Powerlevel10k theme 
 
       * `git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k`
