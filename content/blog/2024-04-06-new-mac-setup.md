@@ -27,6 +27,7 @@ Some notes on how I like to setup a new Mac:
     * profile
 
       * colors -> color presets -> Solarized Dark
+      * colors -> ANSI Colors -> Black Bright -> #565656
       * terminal -> check Unlimited Scrollback
       * keys -> key mappings -> presets... -> Natural Text Editing
     * install Powerlevel10k theme 
@@ -37,12 +38,12 @@ Some notes on how I like to setup a new Mac:
     * install zsh autosuggestions
 
       * `git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
-      * `sed -i '' "s/plugins=(git)/plugins=(git zsh-autosuggestions)/"`
+      * `sed -i '' -e "s/plugins=(git)/plugins=(git zsh-autosuggestions)/" ~/.zshrc`
       * `source ~/.zshrc`
     * install syntax highlighting
 
       * `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
-      * `sed -i '' "s/plugins=(git zsh-autosuggestions)/plugins=(git zsh-autosuggestions zsh-syntax-highlighting)/"`
+      * `sed -i '' "s/plugins=(git zsh-autosuggestions)/plugins=(git zsh-autosuggestions zsh-syntax-highlighting)/" ~/.zshrc`
       * `source ~/.zshrc`
     * set VScode terminal
 
