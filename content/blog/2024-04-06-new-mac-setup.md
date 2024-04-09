@@ -123,6 +123,11 @@ Some notes on how I like to setup a new Mac:
     * script: `osascript -e 'if application "Spotify" is running then' -e 'tell application "Spotify"' -e 'if player state is playing then' -e 'return "♫ " & (artist of current track as string) & " - " & (name of current track as string)' -e 'end if' -e 'end tell' -e 'end if'`
     * refresh:` 5 seconds`
     * no icon
+  * Add docs
+
+    * script: `curl -s https://terminal-stocks.dev/DOCS | grep Doximity | sed -E 's/│//g' | sed -E 's/Doximity, Inc.//' | sed -E 's/(\$..\...).*/\1/'`
+    * no icon
+    * todo: change color from cyan to black
   * add Site Status
 
     * mkdir ~/scripts/isOnline -p
