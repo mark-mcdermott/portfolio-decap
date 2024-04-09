@@ -95,7 +95,7 @@ Some notes on how I like to setup a new Mac:
 * miscellaneous configurations from terminal
 
   * `mkdir ~/Desktop/misc` (a folder I use for stashing junk in)
-  * `sudo spctl --master-disable` (allow downloads from anywhere)
+  * `sudo spctl --master-disable` (will need password, allows downloads from anywhere)
   * `dockutil --remove all` (remove default dock icons)
 * In Finder > settings > sidebar:
 
