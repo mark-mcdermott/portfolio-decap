@@ -17,7 +17,10 @@ Some notes on how I like to setup a new Mac:
     * `eval "$(/usr/local/bin/brew shellenv)"`
   * install apps
 
-    * `brew install iterm2 visual-studio-code dockutil textbar arc adobe-creative-cloud alfred Inkscape blender Spotify autodesk-fusion 1password`
+    * `brew install iterm2 visual-studio-code dockutil textbar arc adobe-creative-cloud alfred Inkscape blender spotify 1password`
+  * install fusion 360 (will have to allow changes on a notification that pops up)
+
+    * `brew install autodesk-fusion`
   * install libraries used by asdf for node install
 
     * `brew install gpg gawk`
@@ -48,7 +51,7 @@ Some notes on how I like to setup a new Mac:
       * `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
       * `sed -i '' "s/plugins=(git zsh-autosuggestions)/plugins=(git zsh-autosuggestions zsh-syntax-highlighting)/" ~/.zshrc`
       * `source ~/.zshrc`
-    * set VScode terminal
+    * set VScode terminal to match iTerm
 
       * `code .`
       * command + shift + p,
