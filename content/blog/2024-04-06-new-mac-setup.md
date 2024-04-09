@@ -48,10 +48,9 @@ Some notes on how I like to setup a new Mac:
     * set VScode terminal
 
       * `code .`
-      * command + ,
-      * `settings.json`
-      * add `"termional.integrated.fontFamily": "MesloLGS NF"`
-  * https://www.youtube.com/watch?v=0FZSshb1qTQ
+      * command + shift + p,
+      * `Preferences: Open User Settings (JSON)`
+      * add `"terminal.integrated.fontFamily": "MesloLGS NF"`
 * in terminal
 
   * install main apps
@@ -79,3 +78,6 @@ Some notes on how I like to setup a new Mac:
 * Google
 
   * log in (as YouTube premium account)
+
+**** Sources
+* a lot of the Powerlevel10k configurations are from   https://www.youtube.com/watch?v=0FZSshb1qTQ
