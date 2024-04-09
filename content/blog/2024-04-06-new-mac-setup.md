@@ -55,7 +55,7 @@ Some notes on how I like to setup a new Mac:
       * `source ~/.zshrc`
       * "always allow" (always allow scrollback history clears)
       * y, command + q, command + space -> iterm, y, command + q, command + space -> iterm, y, y, y, y, 3, 1, 2, 1, 1, 1, 2, 2, 2, n, 1, y
-    * install asdf!
+    * install asdf
 
       * `git clone https://github.com/asdf-vm/asdf.git ~/.asdf`
       * `sed -i '' "s/plugins=(git zsh-autosuggestions zsh-syntax-highlighting)/plugins=(git zsh-autosuggestions zsh-syntax-highlighting asdf)/" ~/.zshrc`
