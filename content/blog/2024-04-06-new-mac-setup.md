@@ -68,13 +68,13 @@ Some notes on how I like to setup a new Mac:
   * Install node, ruby and python and java
 
     * `asdf plugin add nodejs`
+    * `asdf plugin add ruby`
+    * `asdf plugin add python`
+    * `asdf plugin-add java`
     * `asdf install nodejs latest`
     * `asdf global nodejs latest`
-    * `asdf plugin add ruby`
     * `asdf install ruby latest` (~4 mins, click the toast notification & allow notifications)
-    * `asdf plugin add python`
     * `asdf install python latest`
-    * `asdf plugin-add java`
     * `asdf install java latest`
 * setup VScode
 
