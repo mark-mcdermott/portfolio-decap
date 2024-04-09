@@ -138,6 +138,7 @@ Some notes on how I like to setup a new Mac:
   * add key to .ssh/config?
 * Setup menubar
 
+  * run Textbar
   * turn off local ip item and wifi item
   * use cloud icon for public ip address
   * add Spotify 
