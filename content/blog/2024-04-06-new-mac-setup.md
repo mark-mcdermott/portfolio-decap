@@ -65,7 +65,6 @@ Some notes on how I like to setup a new Mac:
   * install some ruby asdf dependencies
 
     * `brew install zlib readline libyaml libffi`
-    * https://pepicrft.me/blog/2023/07/19/psych-issues-installing-ruby
   * Install node, ruby and python and java
 
     * `asdf plugin add nodejs`
