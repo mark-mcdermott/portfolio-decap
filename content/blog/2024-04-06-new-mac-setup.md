@@ -59,7 +59,7 @@ Some notes on how I like to setup a new Mac:
 
   * install asdf
 
-    * `git clone https://github.com/asdf-vm/asdf.git ~/.asdf`
+    * `git clone https://github.com/asdf-vm/asdf.git ~/.asdf` (delete?)
     * `sed -i '' "s/plugins=(git zsh-autosuggestions zsh-syntax-highlighting)/plugins=(git zsh-autosuggestions zsh-syntax-highlighting asdf)/" ~/.zshrc`
     * `source ~/.zshrc`
   * install some ruby asdf dependencies
