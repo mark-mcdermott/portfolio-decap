@@ -78,6 +78,8 @@ Some notes on how I like to setup a new Mac:
 * Google
 
   * log in (as YouTube premium account)
+* CleanShot
+  * download cleanshot & log into personal account at  [licenses.cleanshot.com/download/cleanshotx](https://licenses.cleanshot.com/download/cleanshotx)
 
-**** Sources
-* a lot of the Powerlevel10k configurations are from   https://www.youtube.com/watch?v=0FZSshb1qTQ
+### Sources
+* a lot of the Powerlevel10k configurations are from [youtube.com/watch?v=0FZSshb1qTQ](https://www.youtube.com/watch?v=0FZSshb1qTQ)
