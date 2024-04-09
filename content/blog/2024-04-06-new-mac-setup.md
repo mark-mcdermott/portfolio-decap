@@ -55,7 +55,7 @@ Some notes on how I like to setup a new Mac:
 
   * install main apps
 
-    * `brew install arc dockutil node spotify`
+    * `brew install arc dockutil spotify`
   * miscellaneous conifguration
 
     * `mkdir ~/Applications` (install non-brew apps here to keep them sandboxed to current Mac user)
@@ -81,13 +81,24 @@ Some notes on how I like to setup a new Mac:
 * CleanShot
 
   * download cleanshot & log into personal account at  [licenses.cleanshot.com/download/cleanshotx](https://licenses.cleanshot.com/download/cleanshotx)
-* Install ruby & rails
+* Install node and ruby
 
   * install asdf
 
     * `brew install coreutils curl git`
     * `brew install asdf`
-  * z
+    * `git clone https://github.com/asdf-vm/asdf.git ~/.asdf`
+    * `sed -i '' "s/plugins=`
+  * install node
+
+    * `brew install gpg gawk`
+    * `asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git`
+    * `asdf install nodejs latest`
+    * `asdf global nodejs latest`
+  * install ruby
+
+    * `asdf plugin add ruby`
+    * `asdf install ruby latest`
 * Install alfred
 
 ### Sources
