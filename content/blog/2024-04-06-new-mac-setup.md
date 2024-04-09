@@ -63,6 +63,10 @@ Some notes on how I like to setup a new Mac:
     * `git clone https://github.com/asdf-vm/asdf.git ~/.asdf`
     * `sed -i '' "s/plugins=(git zsh-autosuggestions zsh-syntax-highlighting)/plugins=(git zsh-autosuggestions zsh-syntax-highlighting asdf)/" ~/.zshrc`
     * `source ~/.zshrc`
+  * install some ruby asdf dependencies
+
+    * `brew install zlib readline libyaml libffi`
+    * https://pepicrft.me/blog/2023/07/19/psych-issues-installing-ruby
   * Install node, ruby and python and java
 
     * `asdf plugin add nodejs`
