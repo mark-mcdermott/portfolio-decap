@@ -90,8 +90,8 @@ Some notes on how I like to setup a new Mac:
     * Vue - Official
     * Render Line Endings
     * GitLens
-    * Vim
     * Prettier
+    * todo: maybe Vim plugin?
 * miscellaneous configurations from terminal
 
   * `mkdir ~/Applications` (install non-brew apps here to keep them sandboxed to current Mac user)
