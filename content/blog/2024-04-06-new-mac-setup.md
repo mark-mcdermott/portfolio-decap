@@ -105,7 +105,7 @@ Some notes on how I like to setup a new Mac:
   * `dockutil --add /Applications/iTerm.app`
   * `dockutil --add /Applications/Slack.app`
   * `dockutil --add /Applications/Spotify.app`
-  * ` dockutil --add '/Applications' --view grid --display folder`
+  * `dockutil --add '/Applications' --view grid --display folder`
   * `dockutil --add /Applications/System\ Settings.app`
 * In Finder > settings > sidebar:
 
