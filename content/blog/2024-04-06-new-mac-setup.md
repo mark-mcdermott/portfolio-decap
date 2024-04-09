@@ -25,8 +25,8 @@ Some notes on how I like to setup a new Mac:
   * install fusion 360 (~3 mins)
 
     * `brew install autodesk-fusion`
-    * will have to click notification, allow permissions in settings
-    * and then run `brew install autodesk-fusion` again
+    * will have to click notification, allow permissions in settings and restart terminal 
+    * then run `brew install autodesk-fusion` again
   * install Oh My Zsh
 
     * `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
