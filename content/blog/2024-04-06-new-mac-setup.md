@@ -111,6 +111,11 @@ Some notes on how I like to setup a new Mac:
   * GitLens
   * Vim
   * Prettier
+* Setup github
+
+  * login to github?
+  * get key?
+  * add key to .ssh/config?
 * Setup menubar
 
   * turn off local ip item and wifi item
