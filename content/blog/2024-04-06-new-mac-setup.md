@@ -15,9 +15,9 @@ Some notes on how I like to setup a new Mac:
     * `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
     * `(echo; echo 'eval "$(/usr/local/bin/brew shellenv)"') >> /Users/mark/.zprofile`
     * `eval "$(/usr/local/bin/brew shellenv)"`
-  * install iTerm2 & VScode
+  * install apps
 
-    * `brew install iterm2 visual-studio-code `
+    * `brew install iterm2 visual-studio-code dockutil textbar arc adobe-creative-cloud alfred Inkscape blender Spotify autodesk-fusion 1password`
   * install Oh My Zsh
 
     * `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
@@ -114,6 +114,18 @@ Some notes on how I like to setup a new Mac:
   * GitLens
   * Vim
   * Prettier
+* Setup menubar
+
+  * turn off local ip item and wifi item
+  * use cloud icon for public ip address
+  * add Spotify 
+
+    * script: `osascript -e 'if application "Spotify" is running then' -e 'tell application "Spotify"' -e 'if player state is playing then' -e 'return "♫ " & (artist of current track as string) & " - " & (name of current track as string)' -e 'end if' -e 'end tell' -e 'end if'`
+    * refresh:` 5 seconds`
+    * no icon
+  * add Site Up?
+
+    *
 
 ### Sources
 
