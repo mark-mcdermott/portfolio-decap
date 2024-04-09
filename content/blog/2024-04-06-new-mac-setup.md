@@ -26,7 +26,7 @@ Some notes on how I like to setup a new Mac:
 
     * `brew install autodesk-fusion`
     * will have to click notification, allow permissions in settings and restart terminal 
-    * then run `brew install autodesk-fusion` again
+    * then run `brew install autodesk-fusion` again (run twice, if it fails the first time)
   * install Oh My Zsh
 
     * `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
