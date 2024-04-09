@@ -34,16 +34,16 @@ Some notes on how I like to setup a new Mac:
       * `git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k`
       * `sed -i '' "s/ZSH_THEME=\".*\"/ZSH_THEME=\"powerlevel10k\/powerlevel10k\"/" ~/.zshrc`
       * `source ~/.zshrc`
-    * `install zsh autosuggestions`
+    * install zsh autosuggestions
 
       * `git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
       * `sed -i '' "s/plugins=(git)/`
       * `source ~/.zshrc`
-    * `install syntax highlighting`
+    * install syntax highlighting
 
       * `brew install zsh-syntax-highlighting`
       * ``echo 'source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh` >> ~./zshrc``
-    * `set VScode terminal`
+    * set VScode terminal
 
       * `code .`
       * command + ,
