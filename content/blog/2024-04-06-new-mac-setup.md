@@ -75,7 +75,7 @@ Some notes on how I like to setup a new Mac:
     * `asdf plugin add python`
     * `asdf install python latest`
     * `asdf plugin-add java`
-    * `asdf install python latest`
+    * `asdf install java latest`
 * setup VScode
 
   * set VScode terminal to match iTerm
