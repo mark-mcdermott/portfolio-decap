@@ -206,6 +206,7 @@ Some notes on how I like to setup a new Mac:
   * add Site Status
 
     * script: `puravida ~`
+    * no icon
     * in terminal:
 
       * `puravida ~/scripts/isOnline/sitestatus.txt`
