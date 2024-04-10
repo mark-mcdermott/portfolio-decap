@@ -142,7 +142,7 @@ Some notes on how I like to setup a new Mac:
         * note: "old dox intel macbook"
         * expiration: 90 days
         * scope: repo
-        * copy token
+        * generate token
       * `git config --global credential.helper osxkeychain`
       * maybe git push & then paste in PAT when asked (a one-time thing)
     * setup ssh auth
