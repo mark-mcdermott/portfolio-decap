@@ -15,9 +15,12 @@ Some notes on how I like to setup a new Mac:
     * `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
     * `(echo; echo 'eval "$(/usr/local/bin/brew shellenv)"') >> /Users/mark/.zprofile`
     * `eval "$(/usr/local/bin/brew shellenv)"`
+  * install arc
+
+    * `brew install arc`
   * install apps (~5 mins)
 
-    * `brew install iterm2 visual-studio-code textbar arc alfred inkscape blender spotify 1password slack postgres-unofficial rocket element discord dockutil`
+    * `brew install iterm2 visual-studio-code textbar alfred inkscape blender spotify 1password slack postgres-unofficial rocket element discord dockutil`
   * install adoble creative cloud
 
     * `brew install adobe-creative-cloud`
