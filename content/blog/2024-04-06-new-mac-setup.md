@@ -129,33 +129,33 @@ Some notes on how I like to setup a new Mac:
     * set download folder to Desktop
   * Google (use YouTube premium account)
   * CleanShot ([licenses.cleanshot.com/download/cleanshotx](https://licenses.cleanshot.com/download/cleanshotx))[](https://licenses.cleanshot.com/download/cleanshotx)
-  * Git
+* Setup github auth
 
-    * log in to github
-    * git configs
+  * log in to github
+  * git configs
 
-      * `git config --global user.name "Mark McDermott"`
-      * `git config --global user.email "mark@markmcdermott.io"`
-      * `git config --global core.editor "code --wait"`
-      * `git config --global init.defaultBranch main`
-    * setup https auth
+    * `git config --global user.name "Mark McDermott"`
+    * `git config --global user.email "mark@markmcdermott.io"`
+    * `git config --global core.editor "code --wait"`
+    * `git config --global init.defaultBranch main`
+  * setup https auth
 
-      * get personal access token
+    * get personal access token
 
-        * avatar -> settings -> developer settings -> personal access tokens -> tokens (classic) -> generate new token (classic)
-        * note: "old dox intel macbook"
-        * expiration: 90 days
-        * scope: repo
-        * generate token
-      * `git config --global credential.helper osxkeychain`
-      * maybe git push & then paste in PAT when asked (a one-time thing)
-    * setup ssh auth
+      * avatar -> settings -> developer settings -> personal access tokens -> tokens (classic) -> generate new token (classic)
+      * note: "old dox intel macbook"
+      * expiration: 90 days
+      * scope: repo
+      * generate token
+    * `git config --global credential.helper osxkeychain`
+    * maybe git push & then paste in PAT when asked (a one-time thing)
+  * setup ssh auth
 
-      * `ssh-keygen -t ed25519 -C "mark@markmcdermott.io"`
-      * `mkdir ~/.ssh`
-      * `touch ~/.ssh/config`
-      * `eval "$(ssh-agent -s)"`
-      * paste this to add these lines to ~/.ssh/config
+    * `ssh-keygen -t ed25519 -C "mark@markmcdermott.io"`
+    * `mkdir ~/.ssh`
+    * `touch ~/.ssh/config`
+    * `eval "$(ssh-agent -s)"`
+    * paste this to add these lines to ~/.ssh/config
 
 ```c
 puravida ~/.ssh/config ~
