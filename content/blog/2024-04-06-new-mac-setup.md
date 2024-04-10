@@ -20,7 +20,7 @@ Some notes on how I like to setup a new Mac:
     * `brew install arc spotify `
   * install apps (~5 mins)
 
-    * `brew install iterm2 visual-studio-code textbar inkscape blender slack postgres-unofficial rocket element discord dockutil`
+    * `brew install iterm2 visual-studio-code textbar inkscape blender slack postgres-unofficial rocket element discord intellij-idea dockutil`
     * log into and setup arc, spotify, 1password and alfred while the above install runs
 
       * arc
@@ -95,7 +95,7 @@ Some notes on how I like to setup a new Mac:
     * `asdf install nodejs latest`
     * `asdf global nodejs latest`
     * `asdf install ruby latest` (~6 mins, you may have to click a toast notification & allow notifications)
-    * `asdf install python latest` (~2 min)
+    * `asdf install python latest` (~6 min)
     * todo: install intellij (with brew?) and whatever it needs (sdk?) with asdf?
 * setup VScode
 
