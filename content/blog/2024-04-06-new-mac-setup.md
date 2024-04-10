@@ -200,7 +200,7 @@ Some notes on how I like to setup a new Mac:
     * no icon
   * Add docs
 
-    * script: `curl -s https://terminal-stocks.dev/DOCS | grep Doximity | sed -E 's/│//g' | sed -E 's/Doximity, Inc.//' | sed -E 's/(\$..\...).*/\1/'`
+    * script: `curl -s https://terminal-stocks.dev/DOCS | grep Doximity | sed -E 's/│//g' | sed -E 's/Doximity, Inc.//' | sed -E 's/(\$..\...).*/\1/' | sed -E 's/ //g' | sed -r "s/\x1B\[([0-9]{1,3}(;[0-9]{1,3})*)?[mGK]//g"`
     * no icon
     * todo: change color from cyan to black
   * add Site Status
@@ -210,7 +210,7 @@ Some notes on how I like to setup a new Mac:
     * in terminal:
 
       * `puravida ~/scripts/isOnline/sitestatus.txt`
-      * `echo -e "https://markmcdermott.io;markmcdermott.io" > ~/scripts/isOnline/websites.lst `(make there is is one and only one empty line at the bottom)
+      * `echo -e "https://markmcdermott.io;markmcdermott.io" > ~/scripts/isOnline/websites.lst`(make there is is one and only one empty line at the bottom)
       * `puravida ~/scripts/SiteStatus.sh`
       * `chmod 755 ~/scripts/SiteStatus.sh`
       * paste this script into ~/scripts/SiteStatus.sh
