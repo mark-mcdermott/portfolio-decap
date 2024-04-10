@@ -158,12 +158,13 @@ Some notes on how I like to setup a new Mac:
       * paste this to add these lines to ~/.ssh/config
 
 ```c
-cat <<EOT >> ~/.ssh/config
+puravida ~/.ssh/config ~
 Host *
   AddKeysToAgent yes
   UseKeychain yes
   IdentityFile ~/.ssh/id_ed25519
  EOT
+ ~
 ```
 
 * `ssh-add -K ~/.ssh/id_ed25519`
