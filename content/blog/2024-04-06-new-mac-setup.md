@@ -130,10 +130,10 @@ Some notes on how I like to setup a new Mac:
     * log in to github
     * git configs
 
-      * git config --global user.name "Mark McDermott"
-      * git config --global user.email "mark@markmcdermott.io"
-      * git config --global core.editor "code --wait"
-      * git config --global init.defaultBranch main
+      * `git config --global user.name "Mark McDermott"`
+      * `git config --global user.email "mark@markmcdermott.io"`
+      * `git config --global core.editor "code --wait"`
+      * `git config --global init.defaultBranch main`
     * setup https auth
 
       * get personal access token
@@ -147,7 +147,23 @@ Some notes on how I like to setup a new Mac:
       * maybe git push & then paste in PAT when asked (a one-time thing)
     * setup ssh auth
 
-      *
+      * `ssh-keygen -t ed25519 -C "mark@markmcdermott.io"`
+      * `mkdir ~/.ssh`
+      * `touch ~/.ssh/config`
+      * `eval "$(ssh-agent -s)"`
+      * paste this to add these lines to ~/.ssh/config
+
+```c
+cat <<EOT >> ~/.ssh/config
+Host *
+  AddKeysToAgent yes
+  UseKeychain yes
+  IdentityFile ~/.ssh/id_ed25519
+ EOT
+```
+
+* `ssh-add -K ~/.ssh/id_ed25519`
+* github -> avatar -> settings -> "ssh & gpg keys" -> new ssh key -> add ssh key
 * Setup menubar
 
   * run Textbar
