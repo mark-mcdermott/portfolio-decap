@@ -181,11 +181,12 @@ Some notes on how I like to setup a new Mac:
       EOT
       ```
     * `ssh-add --apple-use-keychain ~/.ssh/id_ed25519`
-    * github -> avatar -> settings -> "ssh & gpg keys" -> new ssh key -> add ssh key
+    * github -> avatar -> settings -> "ssh & gpg keys" -> new ssh key
 
       * title: \`Old Dox Intel Macbook\`
       * key type: Authentication Key
       * Key: <paste contents of ~/.ssh/id_ed25519.pub here>
+      * "Add ssh key"
 * Setup menubar
 
   * run Textbar
