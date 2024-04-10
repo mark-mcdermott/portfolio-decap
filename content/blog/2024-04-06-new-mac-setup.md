@@ -205,9 +205,13 @@ Some notes on how I like to setup a new Mac:
     * todo: change color from cyan to black
   * add Site Status
 
-    * `puravida ~/scripts/isOnline/sitestatus.txt`
-    * `echo -e "https://markmcdermott.io;markmcdermott.io\n" > ~/scripts/isOnline/websites.lst`
-    * paste this script into ~/scripts/SiteStatus.sh
+    * script: `puravida ~`
+    * in terminal:
+
+      * `puravida ~/scripts/isOnline/sitestatus.txt`
+      * `echo -e "https://markmcdermott.io;markmcdermott.io\n" > ~/scripts/isOnline/websites.lst`
+      * `puravida ~`
+      * paste this script into ~/scripts/SiteStatus.sh
 
 ```
 #!/bin/bash
@@ -271,8 +275,9 @@ if [ $SITEDOWNCOUNT -gt 0 ] ; then
 fi
 echo -e "$ICONLINE\n$(cat $SITESTATUS)" > $SITESTATUS
 cat $SITESTATUS
-
 ```
+
+
 
 ### Sources
 
