@@ -21,7 +21,19 @@ Some notes on how I like to setup a new Mac:
   * install apps (~5 mins)
 
     * `brew install iterm2 visual-studio-code textbar inkscape blender slack postgres-unofficial rocket element discord dockutil`
-    * (login to arc, spotify, alfred & 1password while these install)
+    * log into and setup arc, spotify, 1password and alfred while the above install runs
+
+      * arc
+
+        * login as mcdermottsolutions@gmail.com
+        * set as default browser
+        * set download folder to desktop
+        * set clipboard history viewer hotkey to command + e
+      * alfred
+
+        * turn off spotlight: system settings -> keyboard -> keyboard navigation -> keyboard shortcuts -> spotlight -> uncheck Show Spotlight Search
+        * set alfred hotkey to command + space
+        * appearance: "Alfred MacOS"
   * install adoble creative cloud
 
     * `brew install adobe-creative-cloud`
