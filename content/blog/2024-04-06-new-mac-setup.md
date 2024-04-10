@@ -167,8 +167,8 @@ Host *
  ~
 ```
 
-* `ssh-add -K ~/.ssh/id_ed25519`
-* github -> avatar -> settings -> "ssh & gpg keys" -> new ssh key -> add ssh key
+    * `ssh-add -K ~/.ssh/id_ed25519`
+    * github -> avatar -> settings -> "ssh & gpg keys" -> new ssh key -> add ssh key
 * Setup menubar
 
   * run Textbar
