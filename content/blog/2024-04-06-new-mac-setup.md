@@ -205,8 +205,7 @@ Some notes on how I like to setup a new Mac:
     * todo: change color from cyan to black
   * add Site Status
 
-    * `mkdir ~/scripts/isOnline -p`
-    * `touch ~/scripts/isOnline sitestatus.txt`
+    * `puravida ~/scripts/isOnline/sitestatus.txt`
     * `echo -e "https://markmcdermott.io;markmcdermott.io\n" > ~/scripts/isOnline/websites.lst`
     * paste this script in terminal to create the SiteStatus script
 
