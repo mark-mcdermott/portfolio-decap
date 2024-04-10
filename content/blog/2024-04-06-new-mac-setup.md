@@ -15,7 +15,7 @@ Some notes on how I like to setup a new Mac:
     * `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
     * `(echo; echo 'eval "$(/usr/local/bin/brew shellenv)"') >> /Users/mark/.zprofile`
     * `eval "$(/usr/local/bin/brew shellenv)"`
-  * install arc & Spotify
+  * install arc, spotify & alfred
 
     * `brew install arc spotify `
   * install apps (~5 mins)
