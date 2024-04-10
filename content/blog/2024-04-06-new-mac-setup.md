@@ -152,7 +152,7 @@ Some notes on how I like to setup a new Mac:
   * setup ssh auth
 
     * `puravida ~/.ssh/config`
-    * `ssh-keygen -t ed25519 -C "mark@markmcdermott.io"`
+    * `ssh-keygen -t ed25519 -C "mark@markmcdermott.io"` (hit enter 3 times)
     * `eval "$(ssh-agent -s)"`
     * paste this to add these lines to ~/.ssh/config
 
