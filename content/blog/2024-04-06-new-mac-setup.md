@@ -125,9 +125,15 @@ Some notes on how I like to setup a new Mac:
     * set download folder to Desktop
   * Google (use YouTube premium account)
   * CleanShot ([licenses.cleanshot.com/download/cleanshotx](https://licenses.cleanshot.com/download/cleanshotx))[](https://licenses.cleanshot.com/download/cleanshotx)
-  * Github
+  * Git
 
-    * log in
+    * log in to github
+    * git configs
+
+      * git config --global user.name "Mark McDermott"
+      * git config --global user.email "mark@markmcdermott.io"
+      * git config --global core.editor "code --wait"
+      * git config --global init.defaultBranch main
     * setup https auth
 
       * get personal access token
@@ -139,6 +145,9 @@ Some notes on how I like to setup a new Mac:
         * copy token
       * `git config --global credential.helper osxkeychain`
       * maybe git push & then paste in PAT when asked (a one-time thing)
+    * setup ssh auth
+
+      *
 * Setup menubar
 
   * run Textbar
