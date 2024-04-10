@@ -196,7 +196,7 @@ Some notes on how I like to setup a new Mac:
   * add Spotify 
 
     * script: `osascript -e 'if application "Spotify" is running then' -e 'tell application "Spotify"' -e 'if player state is playing then' -e 'return "♫ " & (artist of current track as string) & " - " & (name of current track as string)' -e 'end if' -e 'end tell' -e 'end if'`
-    * refresh:`5 seconds`
+    * refresh: `5 seconds`
     * no icon
   * Add docs
 
