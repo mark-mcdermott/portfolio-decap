@@ -112,7 +112,6 @@ Some notes on how I like to setup a new Mac:
     * Render Line Endings
     * GitLens
     * Prettier
-    * todo: maybe Vim plugin?
 * miscellaneous configurations from terminal
 
   * `mkdir ~/Desktop/misc` (a folder I use for stashing junk in)
@@ -168,7 +167,7 @@ Some notes on how I like to setup a new Mac:
       * this is a one-time thing - cloning with https should work with no username/password prompts going forward now
   * setup ssh auth
 
-    * `puravida ~/.ssh/config`
+    * `purafda ~/.ssh/config`
     * `ssh-keygen -t ed25519 -C "mark@markmcdermott.io"` (hit enter 3 times)
     * `eval "$(ssh-agent -s)"`
     * paste this to add these lines to ~/.ssh/config
