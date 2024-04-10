@@ -156,19 +156,16 @@ Some notes on how I like to setup a new Mac:
     * `eval "$(ssh-agent -s)"`
     * paste this to add these lines to ~/.ssh/config
 
-```c
-cat <<EOT >>  ~/.ssh/config
-Host *
-  AddKeysToAgent yes
-  UseKeychain yes
-  IdentityFile ~/.ssh/id_ed25519
-EOT
-~
-```
-
-    * `ssh-add --apple-use-keychain ~/.ssh/id_ed25519`
+      ```c
+      cat <<EOT >>  ~/.ssh/config
+      Host *
+        AddKeysToAgent yes
+        UseKeychain yes
+        IdentityFile ~/.ssh/id_ed25519
+      EOT
+      ```
+    * \`ssh-add --apple-use-keychain ~/.ssh/id_ed25519\`
     * github -> avatar -> settings -> "ssh & gpg keys" -> new ssh key -> add ssh key
-
 * Setup menubar
 
   * run Textbar
