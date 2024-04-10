@@ -27,6 +27,11 @@ Some notes on how I like to setup a new Mac:
     * `brew install autodesk-fusion`
     * will have to click notification, allow permissions in settings and restart terminal 
     * then run `brew install autodesk-fusion` again (run twice, if it fails the first time)
+  * install puravida (custom bash script like mkdir and touch)
+
+    * git clone https://github.com/mark-mcdermott/puravida.git ~/scripts/bash-scripts/puravida
+    * curl -o /usr/local/bin/puravida.sh https://gist.github.com/mark-mcdermott/ae00250f19945bad091d4ac04203ae18
+    * chmod 755 /usr/local/bin/puravida.sh
   * install Oh My Zsh
 
     * `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
