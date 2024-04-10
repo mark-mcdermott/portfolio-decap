@@ -13,7 +13,7 @@ Some notes on how I like to setup a new Mac:
   * install homebrew (~3 mins)
 
     * `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
-    * `(echo; echo 'eval "$(/usr/local/bin/brew shellenv)"') >> /Users/mark/.zprofile`
+    * `(echo; echo 'eval "$(/usr/local/bin/brew shellenv)" # homebrew') >> /Users/mark/.zprofile`
     * `eval "$(/usr/local/bin/brew shellenv)"`
   * install arc, spotify & alfred
 
