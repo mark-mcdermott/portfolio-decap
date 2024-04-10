@@ -79,7 +79,7 @@ Some notes on how I like to setup a new Mac:
 
   * install asdf
 
-    * `git clone https://github.com/asdf-vm/asdf.git ~/.asdf` (delete?)
+    * `git clone https://github.com/asdf-vm/asdf.git ~/.asdf` 
     * `sed -i '' "s/plugins=(git zsh-autosuggestions zsh-syntax-highlighting)/plugins=(git zsh-autosuggestions zsh-syntax-highlighting asdf)/" ~/.zshrc`
     * quit iTerm and reopen it
   * install some ruby asdf dependencies
