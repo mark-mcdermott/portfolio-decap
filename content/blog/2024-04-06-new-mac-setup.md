@@ -17,7 +17,7 @@ Some notes on how I like to setup a new Mac:
     * `eval "$(/usr/local/bin/brew shellenv)"`
   * install arc, spotify, alfred & 1password (~3 mins)
 
-    * `brew install arc spotify `
+    * `brew install arc spotify`
   * install apps (~5 mins)
 
     * `brew install iterm2 visual-studio-code textbar inkscape blender slack postgres-unofficial rocket element discord intellij-idea dockutil`
@@ -159,8 +159,13 @@ Some notes on how I like to setup a new Mac:
       * expiration: 90 days
       * scope: repo
       * generate token
+      * copy/paste the somewhere temporary so you can use it below
     * `git config --global credential.helper osxkeychain`
-    * maybe git push & then paste in PAT when asked (a one-time thing)
+    * clone a private repo with https
+
+      * enter git username
+      * enter personal access token for password
+      * this is a one-time thing - cloning with https should work with no username/password prompts going forward now
   * setup ssh auth
 
     * `puravida ~/.ssh/config`
