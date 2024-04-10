@@ -17,10 +17,10 @@ Some notes on how I like to setup a new Mac:
     * `eval "$(/usr/local/bin/brew shellenv)"`
   * install arc & Spotify
 
-    * `brew install arc spotify`
+    * `brew install arc spotify `
   * install apps (~5 mins)
 
-    * `brew install iterm2 visual-studio-code textbar alfred inkscape blender 1password slack postgres-unofficial rocket element discord dockutil`
+    * `brew install iterm2 visual-studio-code textbar inkscape blender 1password slack postgres-unofficial rocket element discord dockutil`
   * install adoble creative cloud
 
     * `brew install adobe-creative-cloud`
