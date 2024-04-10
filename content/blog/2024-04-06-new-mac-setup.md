@@ -28,12 +28,13 @@ Some notes on how I like to setup a new Mac:
         * login as mcdermottsolutions@gmail.com
         * set as default browser
         * set download folder to desktop
-        * set clipboard history viewer hotkey to command + e
       * alfred
 
         * turn off spotlight: system settings -> keyboard -> keyboard navigation -> keyboard shortcuts -> spotlight -> uncheck Show Spotlight Search
         * set alfred hotkey to command + space
         * appearance: "Alfred MacOS"
+        * clipboard history: check "keep plain text"
+        * set clipboard history view hotkey to command + e
   * install adoble creative cloud
 
     * `brew install adobe-creative-cloud`
@@ -138,11 +139,6 @@ Some notes on how I like to setup a new Mac:
     * add root folder
 * Log into apps
 
-  * Alfred 
-  * Arc browser:
-
-    * log in (as mcdermottsolutions@gmail.com)
-    * set download folder to Desktop
   * Google (use YouTube premium account)
   * CleanShot ([licenses.cleanshot.com/download/cleanshotx](https://licenses.cleanshot.com/download/cleanshotx))[](https://licenses.cleanshot.com/download/cleanshotx)
 * Setup github auth
