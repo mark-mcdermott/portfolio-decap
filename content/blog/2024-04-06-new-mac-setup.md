@@ -151,17 +151,18 @@ Some notes on how I like to setup a new Mac:
     * maybe git push & then paste in PAT when asked (a one-time thing)
   * setup ssh auth
 
+    * `puravida ~/.ssh/config`
     * `ssh-keygen -t ed25519 -C "mark@markmcdermott.io"`
     * `eval "$(ssh-agent -s)"`
     * paste this to add these lines to ~/.ssh/config
 
 ```c
-puravida ~/.ssh/config ~
+cat <<EOT >>  ~/.ssh/config ~
 Host *
   AddKeysToAgent yes
   UseKeychain yes
   IdentityFile ~/.ssh/id_ed25519
- EOT
+EOT
 ~
 ```
 
