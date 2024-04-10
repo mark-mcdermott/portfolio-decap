@@ -157,7 +157,7 @@ Some notes on how I like to setup a new Mac:
     * paste this to add these lines to ~/.ssh/config
 
 ```c
-cat <<EOT >>  ~/.ssh/config ~
+cat <<EOT >>  ~/.ssh/config
 Host *
   AddKeysToAgent yes
   UseKeychain yes
