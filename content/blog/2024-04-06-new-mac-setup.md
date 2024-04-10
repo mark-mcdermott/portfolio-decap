@@ -93,7 +93,7 @@ Some notes on how I like to setup a new Mac:
     * `asdf plugin-add java`
     * `asdf install nodejs latest`
     * `asdf global nodejs latest`
-    * `asdf install ruby latest` (~4 mins, click the toast notification & allow notifications)
+    * `asdf install ruby latest` (~6 mins, you may have to click a toast notification & allow notifications)
     * `asdf install python latest` (~2 min)
     * todo: install intellij (with brew?) and whatever it needs (sdk?) with asdf?
 * setup VScode
