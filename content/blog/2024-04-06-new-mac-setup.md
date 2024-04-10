@@ -189,8 +189,9 @@ Some notes on how I like to setup a new Mac:
       * "Add ssh key"
 * Setup menubar
 
-  * run Textbar
-  * turn off local ip item and wifi item
+  * run Textbar from alfred
+  * open Textbar preferences
+  * delete Local IP, Who Am I and Wifi items
   * use cloud icon for public ip address
   * add Spotify 
 
