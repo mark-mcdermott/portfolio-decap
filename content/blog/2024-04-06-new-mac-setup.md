@@ -128,14 +128,17 @@ Some notes on how I like to setup a new Mac:
   * Github
 
     * log in
-    * get personal access token
+    * setup https auth
 
-      * avatar -> settings -> developer settings -> personal access tokens -> tokens (classic) -> generate new token (classic)
-      * note: "old dox intel macbook"
-      * expiration: 90 days
-      * scope: repo
-      * copy token
-    * add key to .ssh/config?
+      * get personal access token
+
+        * avatar -> settings -> developer settings -> personal access tokens -> tokens (classic) -> generate new token (classic)
+        * note: "old dox intel macbook"
+        * expiration: 90 days
+        * scope: repo
+        * copy token
+      * `git config --global credential.helper osxkeychain`
+      * maybe git push & then paste in PAT when asked (a one-time thing)
 * Setup menubar
 
   * run Textbar
