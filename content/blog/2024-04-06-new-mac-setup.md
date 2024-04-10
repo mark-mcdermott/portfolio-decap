@@ -152,8 +152,6 @@ Some notes on how I like to setup a new Mac:
   * setup ssh auth
 
     * `ssh-keygen -t ed25519 -C "mark@markmcdermott.io"`
-    * `mkdir ~/.ssh`
-    * `touch ~/.ssh/config`
     * `eval "$(ssh-agent -s)"`
     * paste this to add these lines to ~/.ssh/config
 
@@ -164,7 +162,7 @@ Host *
   UseKeychain yes
   IdentityFile ~/.ssh/id_ed25519
  EOT
- ~
+~
 ```
 
     * `ssh-add -K ~/.ssh/id_ed25519`
