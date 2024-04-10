@@ -157,7 +157,7 @@ Some notes on how I like to setup a new Mac:
       * avatar -> settings -> developer settings -> personal access tokens -> tokens (classic) -> generate new token (classic)
       * note: "old dox intel macbook"
       * expiration: 90 days
-      * scope: repo
+      * scope: repo 
       * generate token
       * copy/paste the somewhere temporary so you can use it below
     * `git config --global credential.helper osxkeychain`
