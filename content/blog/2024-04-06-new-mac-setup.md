@@ -45,8 +45,8 @@ Some notes on how I like to setup a new Mac:
     * then run `brew install autodesk-fusion` again (run twice, if it fails the first time)
   * install puravida (custom bash script like mkdir and touch)
 
-    * curl -o /usr/local/bin/puravida https://gist.githubusercontent.com/mark-mcdermott/ae00250f19945bad091d4ac04203ae18/raw/c48696a3ed16a0b810236749f9a128f451f349f7/puravida.sh
-    * chmod 755 /usr/local/bin/puravida.sh
+    * \`curl -o /usr/local/bin/puravida https://gist.githubusercontent.com/mark-mcdermott/ae00250f19945bad091d4ac04203ae18/raw/c48696a3ed16a0b810236749f9a128f451f349f7/puravida.sh\`
+    * \`chmod 755 /usr/local/bin/puravida\`
   * install Oh My Zsh
 
     * `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
