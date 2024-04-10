@@ -210,7 +210,7 @@ Some notes on how I like to setup a new Mac:
     * in terminal:
 
       * `puravida ~/scripts/isOnline/sitestatus.txt`
-      * `echo -e "https://markmcdermott.io;markmcdermott.io\n" > ~/scripts/isOnline/websites.lst`
+      * `echo -e "https://markmcdermott.io;markmcdermott.io" > ~/scripts/isOnline/websites.lst`
       * `puravida ~/scripts/SiteStatus.sh`
       * `chmod 755 ~/scripts/SiteStatus.sh`
       * paste this script into ~/scripts/SiteStatus.sh
