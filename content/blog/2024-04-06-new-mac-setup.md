@@ -64,7 +64,7 @@ Some notes on how I like to setup a new Mac:
     * `git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k`
     * `sed -i '' "s/ZSH_THEME=\".*\"/ZSH_THEME=\"powerlevel10k\/powerlevel10k\"/" ~/.zshrc`
     * `source ~/.zshrc`
-    * "always allow" (always allow scrollback history clears), y, command + q, command + space -> iterm, y, command + q, command + space -> iterm, y, y, y, y, 3, 1, 2, 1, 3, 1, 1, 2, 2, 2, n, 1, y
+    * "always allow" (always allow scrollback history clears), y, command + q, command + space -> iterm, y, y, y, y, 3, 1, 2, 1, 3, 1, 1, 2, 2, 2, n, 1, y
   * install zsh autosuggestions
 
     * `git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
@@ -81,7 +81,7 @@ Some notes on how I like to setup a new Mac:
 
     * `git clone https://github.com/asdf-vm/asdf.git ~/.asdf` (delete?)
     * `sed -i '' "s/plugins=(git zsh-autosuggestions zsh-syntax-highlighting)/plugins=(git zsh-autosuggestions zsh-syntax-highlighting asdf)/" ~/.zshrc`
-    * `source ~/.zshrc`
+    * quit iTerm and reopen it
   * install some ruby asdf dependencies
 
     * `brew install zlib readline libyaml libffi`
