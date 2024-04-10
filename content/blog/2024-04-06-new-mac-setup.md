@@ -180,7 +180,7 @@ Some notes on how I like to setup a new Mac:
         IdentityFile ~/.ssh/id_ed25519
       EOT
       ```
-    * \`ssh-add --apple-use-keychain ~/.ssh/id_ed25519\`
+    * `ssh-add --apple-use-keychain ~/.ssh/id_ed25519`
     * github -> avatar -> settings -> "ssh & gpg keys" -> new ssh key -> add ssh key
 
       * title: \`Old Dox Intel Macbook\`
