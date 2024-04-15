@@ -1,6 +1,6 @@
 ---
 title: How To Build A Blog On Nuxt 3
-date: 2024-04-15T02:35:00.000Z
+date: 2024-04-15T03:15:00.000Z
 ---
 When I decided to start this blog a few weeks ago, I'd been working in Nuxt 2 for about a year, working on Drivetracks. I looked into static site generators a bit, but realized I really just wanted to build it in Nuxt 3. Especially when I realized Nuxt 3 had built in markdown capabilities, I got pretty excited.
 
