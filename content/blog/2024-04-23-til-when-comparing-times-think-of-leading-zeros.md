@@ -1,5 +1,5 @@
 ---
-title: "TIL: When Comparing Times, Think Of Leading Zeros"
+title: "TIL: When Comparing Times, Consider Leading Zeros"
 date: 2024-04-22T18:54:00.000Z
 ---
 I had a curious bug today in some tests. I love weird intermittent, bugs like this. The TLDR is that when comparing times, make sure to consider leading zeros in the hours. "11:01" will always equal "11:01", but "3:01" is not equal to "03:01".
