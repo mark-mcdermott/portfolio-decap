@@ -1,6 +1,6 @@
 ---
 title: Running A Frontend And Backend With Concurrently
-date: 2024-09-29T05:29:00.000Z
+date: 2024-06-29T04:32:00.000Z
 ---
 ## Starting A Frontend/Backend With Concurrently
 There are many ways to start a frontend and the backend locally with one command. In my experience, the npm package called [concurrently](https://www.npmjs.com/package/concurrently) is the best. You install it with just `npm install --save-dev concurrently` and my favorite way to run it is from frontend folder with a line in the `package.json` `scripts` section like this:
