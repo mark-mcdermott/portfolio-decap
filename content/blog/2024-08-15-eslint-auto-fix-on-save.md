@@ -1,6 +1,6 @@
 ---
 title: ESLint Auto-Fix On Save
-date: 2024-06-11T03:26:00.000Z
+date: 2024-08-15T03:26:00.000Z
 ---
 Let's look at how to use [ESLint](https://eslint.org) to keep our Vue JavaScript clean looking. Specifically, we'll use [antfu's eslint-config](https://github.com/antfu/eslint-config) which are nice presets including auto-fix on save and a nice one line CLI install tool.
 - install VSCode extension `ESLint`

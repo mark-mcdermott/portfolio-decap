@@ -1,6 +1,6 @@
 ---
 title: How To Build A Rails 7 API With Nuxt 2 Frontend With Docker Compose
-date: 2024-04-23T09:22:00.000Z
+date: 2024-06-30T09:22:00.000Z
 ---
 Today, we’re going to set up a nice development environment using Docker Compose to run a Ruby on Rails 7 Postgres API backend with a Nuxt 2 frontend. This guide is for you if you’ve been struggling to get separate front and back apps running in Docker.
 

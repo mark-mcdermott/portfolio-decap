@@ -1,6 +1,6 @@
 ---
 title: New Mac Setup
-date: 2024-04-06T06:49:00.000Z
+date: 2024-05-14T06:49:00.000Z
 ---
 Some notes on how I like to setup a new Mac:
 

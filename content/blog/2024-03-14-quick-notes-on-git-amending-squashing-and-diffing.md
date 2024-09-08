@@ -1,6 +1,6 @@
 ---
 title: Quick Notes On Git Amending, Squashing & Diffing
-date: 3/25/24
+date: 3/14/24
 ---
  I've been working collaboratively on Drivetracks with a couple people and have forced to improve my git-fu a bit and want to jot down real quick what I've learned.
 

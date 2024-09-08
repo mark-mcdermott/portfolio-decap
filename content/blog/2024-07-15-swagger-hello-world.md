@@ -1,6 +1,6 @@
 ---
 title: Swagger Hello World
-date: 2024-05-15T11:32:00.000Z
+date: 2024-07-15T11:32:00.000Z
 ---
 I've been pretty heads down rebuilding Drivetracks in Nuxt 3 and I've learned a lot along the way. Here's a quick Hello World for Swagger with Rails.
 
